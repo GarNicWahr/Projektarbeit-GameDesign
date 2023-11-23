@@ -770,6 +770,8 @@ GameObject:
   - component: {fileID: 491873631}
   - component: {fileID: 491873630}
   - component: {fileID: 491873629}
+  - component: {fileID: 491873633}
+  - component: {fileID: 491873632}
   m_Layer: 5
   m_Name: WeiterButton
   m_TagString: Untagged
@@ -879,6 +881,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491873627}
   m_CullTransparentMesh: 1
+--- !u!114 &491873632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491873627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":137.2685},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-470.0,"y":-75.0},"guid":"94fb8b72-17f7-458f-89bd-b7042b39026c","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"10"},{"chainable":false,"parameterNames":["value"],"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":false,"$type":"System.Boolean"}},"position":{"x":48.0,"y":-84.0},"guid":"35141580-84e8-40e5-b863-cc660ceb0f5f","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"12"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"itemPanel","$type":"System.String"},"object":null},"position":{"x":-187.0,"y":11.0},"guid":"99c4920a-118b-4bc2-8fbe-aaf47eafce4d","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"9a54ece9-8f09-4b8f-9284-9ee1d0b52186","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"f6238137-1b03-4b21-9220-1183a42da3cf","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &491873633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491873627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"itemPanel","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 910558505}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1274,7 +1308,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &910558506
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1483,11 +1517,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977284571}
   m_CullTransparentMesh: 1
---- !u!1 &1029739751 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8093911354458667122, guid: fa944a37c897f5240b9e9f345ca9bedf, type: 3}
-  m_PrefabInstance: {fileID: 5387578250923180476}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1029739752 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4073194773939710941, guid: fa944a37c897f5240b9e9f345ca9bedf, type: 3}
@@ -2407,7 +2436,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3064292675574575587, guid: fa944a37c897f5240b9e9f345ca9bedf, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"infoProp","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"infoPanel","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 3064292675574575587, guid: fa944a37c897f5240b9e9f345ca9bedf, type: 3}
@@ -2417,7 +2446,7 @@ PrefabInstance:
     - target: {fileID: 3064292675574575587, guid: fa944a37c897f5240b9e9f345ca9bedf, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
-      objectReference: {fileID: 1029739751}
+      objectReference: {fileID: 910558505}
     - target: {fileID: 4073194773939710941, guid: fa944a37c897f5240b9e9f345ca9bedf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.19
