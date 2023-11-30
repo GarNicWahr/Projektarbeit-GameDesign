@@ -148,12 +148,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"particleList","value":{"$content":[0],"$type":"System.Collections.Generic.List`1[[UnityEngine.Sprite,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"particleList","value":{"$content":[null],"$type":"System.Collections.Generic.List`1[[UnityEngine.Sprite,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.Sprite,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 7482667652216324306, guid: ffc4e951bffa50c44b35c72c007a6b27, type: 3}
+    _objectReferences: []
 --- !u!114 &870985424470267262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4941,7 +4940,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: c333696fd25f8f940ad4d4a3d1e1d6c6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
