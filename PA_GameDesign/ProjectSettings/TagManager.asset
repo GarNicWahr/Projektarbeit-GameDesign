@@ -45,6 +45,9 @@ TagManager:
   - name: Background
     uniqueID: 363694961
     locked: 0
+  - name: World
+    uniqueID: 1915521367
+    locked: 0
   - name: Character
     uniqueID: 1009729107
     locked: 0
