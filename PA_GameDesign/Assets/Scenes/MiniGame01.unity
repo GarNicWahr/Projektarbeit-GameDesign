@@ -1946,6 +1946,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &441734762
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 664601858}
+    m_Modifications:
+    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110007724542286671, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_Name
+      value: EnemyNormal (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8034611953597527964, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speed","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"reaction","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"directionRaycast","value":{"x":0.0,"y":1.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+--- !u!4 &441734763 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+  m_PrefabInstance: {fileID: 441734762}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &505571225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,6 +2293,7 @@ Transform:
   - {fileID: 1242702158}
   - {fileID: 1443833576}
   - {fileID: 1829021545}
+  - {fileID: 441734763}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &670886065
@@ -2529,7 +2599,12 @@ MonoBehaviour:
       ich kenn'' da einen Ort der wird dir bestimmt gefallen.","Stell dich nicht
       so an. Was soll die sch\u00fcchterne M\u00e4dchen-Nummer?","Ich bin der perfekte
       Mann f\u00fcr dich. Du solltest mitkommen.","Ich und meine Jungs wissen genau
-      worauf ein M\u00e4dchen wie du bock h\u00e4ttest."],"$type":"System.Collections.Generic.List`1[[System.String,
+      worauf ein M\u00e4dchen wie du bock h\u00e4ttest.","Ich wei\u00df, ich bin
+      nicht dein Typ, aber ich k\u00f6nnte es sein.","Verr\u00e4tst du mir wie du
+      hei\u00dft? Damit ich wei\u00df welchen Namen ich heute Nacht rufen muss!","Bist
+      du immer so schwer zu bekommen, oder spiele ich das Spiel nicht richtig?","Kennen
+      wir uns? Du siehst aus wie mein n\u00e4chstes Date.","Ich kann sehen, dass
+      du ''nein'' sagst, aber dein Herz sagt ''vielleicht''."],"$type":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"answersEnemyHarassing","value":{"$content":["Hey,
@@ -2538,12 +2613,21 @@ MonoBehaviour:
       ein sch\u00f6nes Gesicht vergess'' ich nicht.","Du bist richtig h\u00fcbsch.
       Wow!","Wie sch\u00f6n du bist. Wir m\u00fcssen unbedingt einen Kaffee trinken
       gehen.","Du schaust aus, wie die Mutter meiner Kinder.","Es ist schon sp\u00e4t,
-      soll ich dich nach Hause begleiten? Ich wei\u00df ja wo du wohnst ;)"],"$type":"System.Collections.Generic.List`1[[System.String,
+      soll ich dich nach Hause begleiten? Ich wei\u00df ja wo du wohnst ;)","Du musst
+      m\u00fcde sein, weil du mir den ganzen Tag durch den Kopf gelaufen bist.","Hi
+      Kleine! Soll ich dir den Tag vers\u00fc\u00dfen?","Hey Schnittchen, schon belegt?"],"$type":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"answersPlayer","value":{"$content":["Verpiss
       dich!!","Ich hab'' gerade keine Zeit.","...","Lass'' es einfach.","Bitte lass''
-      mich in Ruhe.","Ich bin schon vergeben.","Nein!"],"$type":"System.Collections.Generic.List`1[[System.String,
+      mich in Ruhe.","Ich bin schon vergeben.","Nein!","Echt jetzt?","Magst du nicht
+      jemand anderen nerven?","Oh man, wirklich?","Tut mir leid aber ich hab echt
+      kein Interesse.","Bitte nicht, ich m\u00f6chte das nicht.","Nein danke, ich
+      bin nicht interessiert.","Das ist kein ''Nein, danke'', das ist ein klares
+      ''Nein''.","Du willst es einfach nicht verstehen oder?","Ich m\u00f6chte kein
+      Gespr\u00e4ch, bitte geh weiter.","Ich m\u00f6chte, dass du aufh\u00f6rst,
+      mich anzusprechen.","Bitte versteh, dass ich kein Interesse an einem Gespr\u00e4ch
+      habe.","ich m\u00f6chte keine Unterhaltung f\u00fchren oder angesprochen werden."],"$type":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"enemyNameList","value":{"$content":["Kevin","Justin","Markus","Fabian","Jonas","Wolfgang","Sven","Niklas","Domenik","Sebastian"],"$type":"System.Collections.Generic.List`1[[System.String,
@@ -2551,7 +2635,7 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"minAnswers","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"maxAnswers","value":{"$content":7,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"textDelay","value":{"$content":0.1,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"textDelay","value":{"$content":0.05,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"delayEnd","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"enemyNameTag","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"enemyNamePanel","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
