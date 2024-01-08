@@ -746,6 +746,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87cec5287b18043409753ed612b7a105, type: 3}
+--- !u!1 &705648601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705648602}
+  m_Layer: 0
+  m_Name: Attach Pulli
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &705648602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705648601}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.11, y: -0.31, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1351500115}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &775723795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,6 +1077,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1640320831}
+  - {fileID: 705648602}
   m_Father: {fileID: 994389713}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1351500116
@@ -1311,7 +1343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1640320831}
   m_Layer: 0
-  m_Name: Attach
+  m_Name: Attach Tshirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1342,12 +1374,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3150112877667286584, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.09
+      value: 0.18
       objectReference: {fileID: 0}
     - target: {fileID: 3150112877667286584, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.14
+      value: 0.63
       objectReference: {fileID: 0}
+    - target: {fileID: 6479426798191880597, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c19b6c14c5fb89f46a58c6ba6aaf0d31, type: 3}
     - target: {fileID: 6479426798191880597, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -1374,7 +1410,7 @@ PrefabInstance:
     - target: {fileID: 7607200689827987962, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
-      objectReference: {fileID: 1640320831}
+      objectReference: {fileID: 705648602}
     - target: {fileID: 7607200689827987962, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: _data._objectReferences.Array.data[2]
       value: 
