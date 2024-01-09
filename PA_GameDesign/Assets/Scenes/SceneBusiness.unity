@@ -303,17 +303,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13375358}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.03232079, w: 0.99947757}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 477380350}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.704}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -75}
-  m_SizeDelta: {x: -400, y: 50}
+  m_AnchoredPosition: {x: -452.1858, y: -475}
+  m_SizeDelta: {x: -1359.5991, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &13375360
 MonoBehaviour:
@@ -391,7 +391,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
+  m_AnchoredPosition: {x: 375, y: -250}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &23435921
@@ -533,17 +533,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103079259}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.03232079, w: 0.99947757}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 292673185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.704}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 25, y: -475}
-  m_SizeDelta: {x: -450, y: 50}
+  m_AnchoredPosition: {x: -452.1858, y: -475}
+  m_SizeDelta: {x: -1359.5991, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &103079261
 MonoBehaviour:
@@ -621,8 +621,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 75, y: -75}
-  m_SizeDelta: {x: 650, y: 300}
+  m_AnchoredPosition: {x: 698.1424, y: 4.8455}
+  m_SizeDelta: {x: 852.86, y: 702.8901}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &117082070
 MonoBehaviour:
@@ -646,10 +646,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 31
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -657,18 +657,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Item Discription Text\n\nLorem ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor.\nAenean massa. Cum sociis natoque penatibus
-    et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-    nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. \nDonec
-    pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-    mollis pretium. Integer tincidunt. \nCras dapibus. Vivamus elementum semper nisi.
-    Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
-    vitae, eleifend ac, enim. \nAliquam lorem ante, dapibus in, viverra quis, feugiat
-    a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-    imperdiet. \nEtiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-    nisi."
+  m_Text: "Weltm\xE4dchentag\nAm 11. Oktober ist Weltm\xE4dchentag! J\xE4hrlich finden
+    seither weltweit Aktionen statt, um gegen die Benachteiligung von M\xE4dchen
+    zu arbeiten. Trotz Fortschritten bei der Chancengleichheit haben viele M\xE4dchen
+    weltweit immer noch weniger M\xF6glichkeiten als Jungen. Weltweit haben rund
+    130 Millionen M\xE4dchen keinen Zugang zur Bildung.  J\xE4hrlich wird dieser
+    Tag mit Aktionen und dem Anstrahlen von Wahrzeichen in Pink begangen, um die
+    Gleichberechtigung der M\xE4dchen zu betonen. Zus\xE4tzlich \xFCbernehmen M\xE4dchen
+    aus \xFCber 60 L\xE4ndern bei mehr als 600 Takeover-Aktionen F\xFChrungspositionen,
+    um ihre Anliegen sichtbar zu machen."
 --- !u!222 &117082071
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -856,17 +853,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143418779}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.03232079, w: 0.99947757}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 244941112}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.704}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -75}
-  m_SizeDelta: {x: -400, y: 50}
+  m_AnchoredPosition: {x: -452.1858, y: -475}
+  m_SizeDelta: {x: -1359.5991, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &143418781
 MonoBehaviour:
@@ -1029,8 +1026,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 75, y: -75}
-  m_SizeDelta: {x: 650, y: 300}
+  m_AnchoredPosition: {x: 698.1424, y: 4.8455}
+  m_SizeDelta: {x: 852.86, y: 702.8901}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &173377110
 MonoBehaviour:
@@ -1054,10 +1051,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 31
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1065,18 +1062,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Item Discription Text\n\nLorem ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor.\nAenean massa. Cum sociis natoque penatibus
-    et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-    nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. \nDonec
-    pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-    mollis pretium. Integer tincidunt. \nCras dapibus. Vivamus elementum semper nisi.
-    Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
-    vitae, eleifend ac, enim. \nAliquam lorem ante, dapibus in, viverra quis, feugiat
-    a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-    imperdiet. \nEtiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-    nisi."
+  m_Text: "Girl\xB4s Day\nDer Girls'Day ist ein j\xE4hrlicher Tag zur beruflichen
+    Orientierung f\xFCr M\xE4dchen. In Deutschland entscheidet sich jedoch mehr als
+    die H\xE4lfte der M\xE4dchen weiterhin f\xFCr nur zehn Ausbildungsberufe im dualen
+    System, ohne einen einzigen naturwissenschaftlich-technischen Beruf darunter.
+    Der Girls\u2018 Day \u2013 M\xE4dchen-Zukunftstag wurde ins Leben gerufen, um
+    M\xE4dchen bessere berufliche Perspektiven zu bieten und Betrieben qualifizierten
+    Nachwuchs in technischen, m\xE4nnerdominierten Bereichen zu erm\xF6glichen."
 --- !u!222 &173377111
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1354,7 +1346,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
+  m_AnchoredPosition: {x: 375, y: -250}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &255418833
@@ -1459,17 +1451,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282020701}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.06384201, w: 0.99796003}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1530468714}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 7.321}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 307, y: -224}
+  m_SizeDelta: {x: 193.4071, y: 166.7303}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &282020703
 MonoBehaviour:
@@ -1491,7 +1483,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: e61b4aa1735b6be4c99a8773c3c55c80, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1613,17 +1605,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362488883}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.03232079, w: 0.99947757}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1810300882}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.704}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -75}
-  m_SizeDelta: {x: -400, y: 50}
+  m_AnchoredPosition: {x: -452.1858, y: -475}
+  m_SizeDelta: {x: -1359.5991, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &362488885
 MonoBehaviour:
@@ -1701,8 +1693,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 75, y: -75}
-  m_SizeDelta: {x: 650, y: 300}
+  m_AnchoredPosition: {x: 698.1424, y: 4.8455}
+  m_SizeDelta: {x: 852.86, y: 702.8901}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &362903004
 MonoBehaviour:
@@ -1726,10 +1718,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 31
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1737,18 +1729,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Item Discription Text\n\nLorem ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor.\nAenean massa. Cum sociis natoque penatibus
-    et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-    nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. \nDonec
-    pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-    mollis pretium. Integer tincidunt. \nCras dapibus. Vivamus elementum semper nisi.
-    Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
-    vitae, eleifend ac, enim. \nAliquam lorem ante, dapibus in, viverra quis, feugiat
-    a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-    imperdiet. \nEtiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-    nisi."
+  m_Text: "Little-Miss Wahlen - Sexualisierung im jungen Alter\nDie erfolgreiche
+    US-Sendung beleuchtet den harten Alltag von Kinder-Misswahlen und wie M\xFCtter
+    ihre T\xF6chter zu Sch\xF6nheitsk\xF6niginnen formen, inklusive Make-up, Haarspray
+    und schmerzhaften Sch\xF6nheitsritualen. Einige gehen sogar so weit, ihre Kleinkinder
+    Sonnenduschen zu schicken und ihre Augenbrauen zu entfernen. Der enorme Druck,
+    perfekt zu sein und im Wettbewerb zu gl\xE4nzen, bietet finanzielle Belohnungen
+    und Ruhm als Anreiz. Allerdings kann dies f\xFCr M\xE4dchen im Kindesalter zu
+    einem verzerrten Selbstbild und Selbsthass f\xFChren auch m\xFCssen die jungen
+    M\xE4dchen mit einer fr\xFCheren Sexualisierung ihres K\xF6rpers rechnen durch
+    Kost\xFCme mit falschen Br\xFCsten und Po-Einlagen bis hin zu knappen Cowgirl-Outfits."
 --- !u!222 &362903005
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1791,8 +1781,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 75, y: -75}
-  m_SizeDelta: {x: 650, y: 300}
+  m_AnchoredPosition: {x: 698.1424, y: 4.8455}
+  m_SizeDelta: {x: 852.86, y: 702.8901}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &379570121
 MonoBehaviour:
@@ -1816,10 +1806,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 31
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1827,18 +1817,20 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Item Discription Text\n\nLorem ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor.\nAenean massa. Cum sociis natoque penatibus
-    et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-    nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. \nDonec
-    pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-    mollis pretium. Integer tincidunt. \nCras dapibus. Vivamus elementum semper nisi.
-    Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
-    vitae, eleifend ac, enim. \nAliquam lorem ante, dapibus in, viverra quis, feugiat
-    a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-    imperdiet. \nEtiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-    nisi."
+  m_Text: "Farb-Klischees - Rosa-Hellblau Falle:\nFarb-Klischees und die Rosa-Hellblau-Falle
+    sind in der Gesellschaft tief verankert. Schon bei der Auswahl von Spielzeug
+    werden stereotype Rollenbilder verst\xE4rkt: Jungen werden durch Fu\xDFb\xE4lle,
+    Bauarbeit und Actionfiguren ermutigt, w\xE4hrend M\xE4dchen eher zu niedlichen
+    Pferden oder Barbie-Puppen greifen.\nVor etwa hundert Jahren war die Farbzuschreibung
+    zu Geschlechtern umgekehrt. Rot galt als Farbe der M\xE4nner aufgrund seiner
+    Verbindung zu Kampf, Blut, Krieg und Leidenschaft. K\xF6nigsm\xE4ntel im Mittelalter
+    waren daher purpur- und rotgef\xE4rbt. In der christlichen Tradition wurden M\xE4dchen
+    dagegen in Blau gekleidet, inspiriert vom Gewand der Jungfrau Maria. Bunte Kleidung
+    war ein Privileg wohlhabender Familien, da sie in vergangenen Zeiten generell
+    teuer war.\nDie Zuordnung von Farben zu Geschlechtern \xE4nderte sich vermutlich,
+    als im Milit\xE4r andere Farben in Mode kamen, von kr\xE4ftigem Rot zu grau,
+    braun und blau. Dies k\xF6nnte erkl\xE4ren, warum Hellblau f\xFCr Jungen und
+    Rosa f\xFCr M\xE4dchen bis heute weit verbreitet sind."
 --- !u!222 &379570122
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2050,7 +2042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":-48.2304},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-697.0,"y":-265.0},"guid":"9ba25a17-9801-43b0-95ca-0f77243b2753","$version":"A","$type":"Unity.VisualScripting.OnCollisionEnter2D","$id":"10"},{"chainable":false,"parameterNames":["tag"],"member":{"name":"CompareTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%tag":{"$content":"Puzzle","$type":"System.String"}},"position":{"x":-262.0,"y":-173.0},"guid":"dc27a145-53c2-4c95-8533-cbca230e5045","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"12"},{"defaultValues":{},"position":{"x":-65.0,"y":-277.0},"guid":"c1f279d1-f6b2-4fba-a1ab-12948b51578a","$version":"A","$type":"Unity.VisualScripting.If","$id":"16"},{"chainable":false,"parameterNames":["obj"],"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":154.0,"y":-276.0},"guid":"527d3570-c301-4fbf-8455-a12b8d23cf65","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"18"},{"member":{"name":"gameObject","parameterTypes":null,"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"target":null},"position":{"x":-152.0,"y":38.0},"guid":"1445af90-f416-4164-a92e-8b2611e39607","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"22"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"8cfd1615-ec2f-4237-becc-8b7c9d8541d6","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"7cd4f84d-7107-4009-b274-a393fcc00b1b","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"result","destinationUnit":{"$ref":"16"},"destinationKey":"condition","guid":"03c3e756-1efa-43e3-ad36-32d002e686c7","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"collider","destinationUnit":{"$ref":"22"},"destinationKey":"target","guid":"0653a754-d193-405e-8ced-bd7874d6113e","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"%obj","guid":"aa8ade74-4537-4e63-9b2c-54ca50b2143b","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-170.0,"y":-103.2304},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-697.0,"y":-265.0},"guid":"9ba25a17-9801-43b0-95ca-0f77243b2753","$version":"A","$type":"Unity.VisualScripting.OnCollisionEnter2D","$id":"10"},{"chainable":false,"parameterNames":["tag"],"member":{"name":"CompareTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%tag":{"$content":"Puzzle","$type":"System.String"}},"position":{"x":-262.0,"y":-173.0},"guid":"dc27a145-53c2-4c95-8533-cbca230e5045","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"12"},{"defaultValues":{},"position":{"x":-65.0,"y":-277.0},"guid":"c1f279d1-f6b2-4fba-a1ab-12948b51578a","$version":"A","$type":"Unity.VisualScripting.If","$id":"16"},{"chainable":false,"parameterNames":["obj"],"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":154.0,"y":-276.0},"guid":"527d3570-c301-4fbf-8455-a12b8d23cf65","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"18"},{"member":{"name":"gameObject","parameterTypes":null,"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"target":null},"position":{"x":-152.0,"y":38.0},"guid":"1445af90-f416-4164-a92e-8b2611e39607","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"22"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"8cfd1615-ec2f-4237-becc-8b7c9d8541d6","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"7cd4f84d-7107-4009-b274-a393fcc00b1b","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"result","destinationUnit":{"$ref":"16"},"destinationKey":"condition","guid":"03c3e756-1efa-43e3-ad36-32d002e686c7","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"collider","destinationUnit":{"$ref":"22"},"destinationKey":"target","guid":"0653a754-d193-405e-8ced-bd7874d6113e","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"%obj","guid":"aa8ade74-4537-4e63-9b2c-54ca50b2143b","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
     _objectReferences: []
 --- !u!114 &408623445
 MonoBehaviour:
@@ -2108,7 +2100,7 @@ SpriteRenderer:
   m_SortingLayerID: -175293797
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3c3a1cf97e2ed154ab19222f6608a2bb, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2116,7 +2108,7 @@ SpriteRenderer:
   m_Size: {x: 10.12, y: 9.82}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &413325478
@@ -2241,8 +2233,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 75, y: 25}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 200, y: 150}
+  m_SizeDelta: {x: 150, y: 70}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &450090535
 MonoBehaviour:
@@ -2576,7 +2568,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.2006216, y: -0.14489323}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2587,7 +2579,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.73872, y: 1.2897865}
   m_EdgeRadius: 0
 --- !u!212 &462057033
 SpriteRenderer:
@@ -2630,7 +2622,7 @@ SpriteRenderer:
   m_SortingLayerID: -175293797
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 0.4117647, g: 0.78431374, b: 0.39607844, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2638,7 +2630,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &462057034
@@ -2771,11 +2763,11 @@ RectTransform:
   - {fileID: 2099217615}
   m_Father: {fileID: 292673185}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -50, y: 25}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 250, y: 150}
+  m_SizeDelta: {x: 300, y: 70}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &491873629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2915,17 +2907,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512225331}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.03232079, w: 0.99947757}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1131681090}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.704}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -75}
-  m_SizeDelta: {x: -400, y: 50}
+  m_AnchoredPosition: {x: -452.1858, y: -475}
+  m_SizeDelta: {x: -1359.5991, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &512225333
 MonoBehaviour:
@@ -3370,7 +3362,7 @@ Transform:
   m_GameObject: {fileID: 646044809}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.16, y: 0.7, z: 0.07423475}
+  m_LocalPosition: {x: -3.03, y: 1.26, z: 0.07423475}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3477,7 +3469,7 @@ SpriteRenderer:
   m_SortingLayerID: -175293797
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 0.86806667, g: 0.5686275, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3485,7 +3477,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &667074858
@@ -3524,11 +3516,11 @@ RectTransform:
   - {fileID: 630800288}
   m_Father: {fileID: 1131681090}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -50, y: 25}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 250, y: 150}
+  m_SizeDelta: {x: 300, y: 70}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &667074860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3677,8 +3669,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 349, y: -209}
+  m_SizeDelta: {x: 161.03, y: 165.1053}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &717710929
 MonoBehaviour:
@@ -3700,7 +3692,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: fe700d457f6df534cb8963f23384f25d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3743,17 +3735,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724001929}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.23715723, w: 0.9714713}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 211660789}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -27.438}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 416, y: -186}
+  m_SizeDelta: {x: 113.6417, y: 181.8268}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &724001931
 MonoBehaviour:
@@ -3775,7 +3767,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4570e65400585fd46aa60b555f5cd508, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3872,90 +3864,6 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 20.48, y: 9.71}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &741772403
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 741772404}
-  - component: {fileID: 741772405}
-  m_Layer: 0
-  m_Name: House1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &741772404
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 741772403}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.4123, y: 0.7001, z: 0}
-  m_LocalScale: {x: 6.9527555, y: 11.432641, z: 9.5763}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1899763812}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &741772405
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 741772403}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 363694961
-  m_SortingLayer: 1
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.9245283, g: 0.9027234, b: 0.9027234, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4211,8 +4119,8 @@ Transform:
   m_GameObject: {fileID: 841166201}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.41, y: -0.719937, z: 0.07423475}
-  m_LocalScale: {x: 0.2934, y: 0.2934, z: 0.2934}
+  m_LocalPosition: {x: -6.05, y: 2.85, z: 0.07423475}
+  m_LocalScale: {x: 0.12372678, y: 0.12372678, z: 0.12372678}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 259502639}
@@ -4738,17 +4646,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942048804}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.03232079, w: 0.99947757}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1143071541}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.704}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -75}
-  m_SizeDelta: {x: -400, y: 50}
+  m_AnchoredPosition: {x: -452.1858, y: -475}
+  m_SizeDelta: {x: -1359.5991, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &942048806
 MonoBehaviour:
@@ -4981,8 +4889,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 75, y: -75}
-  m_SizeDelta: {x: 650, y: 300}
+  m_AnchoredPosition: {x: 698.1424, y: 4.8455}
+  m_SizeDelta: {x: 852.86, y: 702.8901}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &976608684
 MonoBehaviour:
@@ -5006,10 +4914,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 31
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -5017,18 +4925,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Item Discription Text\n\nLorem ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor.\nAenean massa. Cum sociis natoque penatibus
-    et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-    nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. \nDonec
-    pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-    mollis pretium. Integer tincidunt. \nCras dapibus. Vivamus elementum semper nisi.
-    Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
-    vitae, eleifend ac, enim. \nAliquam lorem ante, dapibus in, viverra quis, feugiat
-    a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-    imperdiet. \nEtiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-    nisi."
+  m_Text: "Unterschiede im Krankheitsbild\nSensible Sinneswahrnehmung, Unruhe oder
+    eher sch\xFCchtern?\nViele Erkrankungen, darunter Autismus, manifestieren sich
+    bei Frauen auf unterschiedliche Weise im Vergleich zu M\xE4nnern. Einige M\xE4dchen
+    und Frauen mit autistischer St\xF6rung k\xF6nnen ihre Schwierigkeiten geschickt
+    verbergen, was zu sp\xE4ten Diagnosen f\xFChren kann. Bei einigen Frauen erfolgt
+    m\xF6glicherweise nie eine Diagnose. Die Symptome \xE4hneln mitunter denen anderer
+    psychischer St\xF6rungen wie ADHS, Zwangsst\xF6rungen oder Magersucht, insbesondere
+    bei autistischen M\xE4dchen. Dies kann zu Fehldiagnosen f\xFChren.\nNeben Autismus
+    gibt es weitere Erkrankungen, bei denen sich die Symptome bei Frauen und M\xE4nnern
+    derart stark unterscheiden, dass Diagnosen m\xF6glicherweise ausbleiben oder
+    fehlerhaft sind."
 --- !u!222 &976608685
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5148,11 +5055,11 @@ RectTransform:
   - {fileID: 932721852}
   m_Father: {fileID: 211660789}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -50, y: 25}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 250, y: 150}
+  m_SizeDelta: {x: 300, y: 70}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &990086092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5295,18 +5202,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004275374}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.18707275, w: 0.98234606}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1932217640}
+  m_Children: []
   m_Father: {fileID: 1640651732}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 21.564}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 60}
+  m_AnchoredPosition: {x: -11, y: 38.4}
+  m_SizeDelta: {x: 101.2, y: 98.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1004275376
 MonoBehaviour:
@@ -5372,8 +5278,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3c3a1cf97e2ed154ab19222f6608a2bb, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5403,7 +5309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":360.0,"y":49.4902},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-840.0,"y":-223.0},"guid":"4b28a8e9-4d0f-412d-aad7-be3bf45404f2","$version":"A","$type":"Unity.VisualScripting.Update","$id":"10"},{"defaultValues":{},"position":{"x":303.0,"y":-219.0},"guid":"cadf42f7-7acc-4a1b-aa32-7d402c2a9d96","$version":"A","$type":"Unity.VisualScripting.If","$id":"12"},{"chainable":false,"member":{"name":"interactable","parameterTypes":null,"targetType":"UnityEngine.UI.Button","targetTypeName":"UnityEngine.UI.Button","$version":"A"},"defaultValues":{"target":null,"input":{"$content":true,"$type":"System.Boolean"}},"position":{"x":494.0,"y":-219.0},"guid":"9de18e6c-976f-4704-bfea-0bbaa163dede","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"14"},{"defaultValues":{},"position":{"x":111.0,"y":271.0},"guid":"28bc44c7-0993-4ff3-be2c-3a3a1be202d0","$version":"A","$type":"Unity.VisualScripting.And","$id":"17"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece04","$type":"System.String"}},"position":{"x":-626.0,"y":221.0},"guid":"9882123e-f3e6-4df7-8308-43a46f736d52","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"19"},{"defaultValues":{},"position":{"x":-84.0,"y":169.0},"guid":"04155c0a-db2e-46f8-a392-4b0118fe9cf5","$version":"A","$type":"Unity.VisualScripting.And","$id":"21"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece01","$type":"System.String"}},"position":{"x":-623.0,"y":-78.0},"guid":"eee76c4a-ae7d-4b21-88d0-76876bf2259d","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"23"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece02","$type":"System.String"}},"position":{"x":-624.0,"y":20.0},"guid":"6609ceeb-3c6c-4c52-a15f-dcf1bcc43ff7","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"25"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece03","$type":"System.String"}},"position":{"x":-627.0,"y":122.0},"guid":"01373b38-c130-4bce-b623-84b8f627aa5d","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"27"},{"defaultValues":{},"position":{"x":-85.0,"y":430.0},"guid":"377c7268-97fe-45da-9a09-fef45dfa7c1f","$version":"A","$type":"Unity.VisualScripting.And","$id":"29"},{"defaultValues":{},"position":{"x":-319.0,"y":110.0},"guid":"11d7f2d0-62a8-4361-b48d-751d3fbb13f3","$version":"A","$type":"Unity.VisualScripting.And","$id":"31"},{"defaultValues":{},"position":{"x":-326.0,"y":376.0},"guid":"11228a70-372a-418f-9abc-80a4ec147f0b","$version":"A","$type":"Unity.VisualScripting.And","$id":"33"},{"defaultValues":{},"position":{"x":-323.0,"y":252.0},"guid":"089c2f81-1fba-4bec-9524-70df5749f710","$version":"A","$type":"Unity.VisualScripting.And","$id":"35"},{"defaultValues":{},"position":{"x":-319.0,"y":508.0},"guid":"88d79876-e6f3-47ed-b30a-03e7637d3d8a","$version":"A","$type":"Unity.VisualScripting.And","$id":"37"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece05","$type":"System.String"}},"position":{"x":-621.0,"y":326.0},"guid":"b8d8c2ca-8de2-44a5-9ba4-ee1776d4d329","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"39"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece06","$type":"System.String"}},"position":{"x":-612.0,"y":434.0},"guid":"ece73c3a-e34c-4be7-b95f-2030c478bbc1","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"41"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece07","$type":"System.String"}},"position":{"x":-614.0,"y":538.0},"guid":"0bc7e297-6561-421d-8a86-b63c3474d4aa","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"43"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece08","$type":"System.String"}},"position":{"x":-612.0,"y":642.0},"guid":"751aa73f-b397-4ef1-b28b-d365fdc553f2","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"45"},{"sourceUnit":{"$ref":"12"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"14"},"destinationKey":"assign","guid":"b3649e98-ba86-48cd-ab01-2540db51545f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"2845157b-dad3-4920-97a6-cfd49244af3d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"33"},"sourceKey":"result","destinationUnit":{"$ref":"29"},"destinationKey":"a","guid":"49dc5afb-0af0-4217-b4d4-0dacfbafbf71","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"41"},"sourceKey":"value","destinationUnit":{"$ref":"33"},"destinationKey":"b","guid":"427b44c4-217f-463c-864c-bd885dc2cbc9","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"39"},"sourceKey":"value","destinationUnit":{"$ref":"33"},"destinationKey":"a","guid":"25fccfc0-68ec-4cf2-8459-43cf074b14b4","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"31"},"sourceKey":"result","destinationUnit":{"$ref":"21"},"destinationKey":"a","guid":"bee2a748-49ea-4920-baa7-8fc53d5e648d","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"35"},"sourceKey":"result","destinationUnit":{"$ref":"21"},"destinationKey":"b","guid":"1be39848-762d-4c29-94bd-24747b788c1a","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"35"},"destinationKey":"b","guid":"1449e04f-e76e-49af-a959-56d55798cbed","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"37"},"sourceKey":"result","destinationUnit":{"$ref":"29"},"destinationKey":"b","guid":"3ec84098-11d2-4bba-9082-2eca9ba3d155","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"result","destinationUnit":{"$ref":"17"},"destinationKey":"a","guid":"b41a0987-5be2-44c9-af7b-80b5aaa0a5e4","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"25"},"sourceKey":"value","destinationUnit":{"$ref":"31"},"destinationKey":"b","guid":"3a5144a6-2d6a-4828-b8a3-1d3fa1d7c49c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"27"},"sourceKey":"value","destinationUnit":{"$ref":"35"},"destinationKey":"a","guid":"800832cb-7824-4dbd-8f43-2ad6d9311f31","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"result","destinationUnit":{"$ref":"12"},"destinationKey":"condition","guid":"29dfa8b1-012d-424f-8e2d-a2b1412cf2f6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"43"},"sourceKey":"value","destinationUnit":{"$ref":"37"},"destinationKey":"a","guid":"95b1bfec-5d17-4662-962d-1e74bf236819","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"value","destinationUnit":{"$ref":"31"},"destinationKey":"a","guid":"65868513-6625-4c08-8c6a-e6018a5da6d6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"29"},"sourceKey":"result","destinationUnit":{"$ref":"17"},"destinationKey":"b","guid":"88e76ba5-629e-4c25-aae0-9155647307dd","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"45"},"sourceKey":"value","destinationUnit":{"$ref":"37"},"destinationKey":"b","guid":"c0bafb93-6416-4415-ab54-4163a0e41da5","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":360.0,"y":49.4902},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-840.0,"y":-223.0},"guid":"4b28a8e9-4d0f-412d-aad7-be3bf45404f2","$version":"A","$type":"Unity.VisualScripting.Update","$id":"10"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece07","$type":"System.String"}},"position":{"x":-614.0,"y":538.0},"guid":"0bc7e297-6561-421d-8a86-b63c3474d4aa","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"12"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece06","$type":"System.String"}},"position":{"x":-612.0,"y":434.0},"guid":"ece73c3a-e34c-4be7-b95f-2030c478bbc1","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece05","$type":"System.String"}},"position":{"x":-621.0,"y":326.0},"guid":"b8d8c2ca-8de2-44a5-9ba4-ee1776d4d329","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"defaultValues":{},"position":{"x":-319.0,"y":508.0},"guid":"88d79876-e6f3-47ed-b30a-03e7637d3d8a","$version":"A","$type":"Unity.VisualScripting.And","$id":"18"},{"defaultValues":{},"position":{"x":-323.0,"y":252.0},"guid":"089c2f81-1fba-4bec-9524-70df5749f710","$version":"A","$type":"Unity.VisualScripting.And","$id":"20"},{"defaultValues":{},"position":{"x":-326.0,"y":376.0},"guid":"11228a70-372a-418f-9abc-80a4ec147f0b","$version":"A","$type":"Unity.VisualScripting.And","$id":"22"},{"defaultValues":{},"position":{"x":-319.0,"y":110.0},"guid":"11d7f2d0-62a8-4361-b48d-751d3fbb13f3","$version":"A","$type":"Unity.VisualScripting.And","$id":"24"},{"defaultValues":{},"position":{"x":-85.0,"y":430.0},"guid":"377c7268-97fe-45da-9a09-fef45dfa7c1f","$version":"A","$type":"Unity.VisualScripting.And","$id":"26"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece08","$type":"System.String"}},"position":{"x":-612.0,"y":642.0},"guid":"751aa73f-b397-4ef1-b28b-d365fdc553f2","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"28"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece02","$type":"System.String"}},"position":{"x":-624.0,"y":20.0},"guid":"6609ceeb-3c6c-4c52-a15f-dcf1bcc43ff7","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"30"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece01","$type":"System.String"}},"position":{"x":-623.0,"y":-78.0},"guid":"eee76c4a-ae7d-4b21-88d0-76876bf2259d","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"32"},{"defaultValues":{},"position":{"x":-84.0,"y":169.0},"guid":"04155c0a-db2e-46f8-a392-4b0118fe9cf5","$version":"A","$type":"Unity.VisualScripting.And","$id":"34"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece04","$type":"System.String"}},"position":{"x":-626.0,"y":221.0},"guid":"9882123e-f3e6-4df7-8308-43a46f736d52","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"36"},{"defaultValues":{},"position":{"x":111.0,"y":271.0},"guid":"28bc44c7-0993-4ff3-be2c-3a3a1be202d0","$version":"A","$type":"Unity.VisualScripting.And","$id":"38"},{"chainable":false,"member":{"name":"interactable","parameterTypes":null,"targetType":"UnityEngine.UI.Button","targetTypeName":"UnityEngine.UI.Button","$version":"A"},"defaultValues":{"target":null,"input":{"$content":true,"$type":"System.Boolean"}},"position":{"x":494.0,"y":-219.0},"guid":"9de18e6c-976f-4704-bfea-0bbaa163dede","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"40"},{"defaultValues":{},"position":{"x":303.0,"y":-219.0},"guid":"cadf42f7-7acc-4a1b-aa32-7d402c2a9d96","$version":"A","$type":"Unity.VisualScripting.If","$id":"43"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"puzzlePiece03","$type":"System.String"}},"position":{"x":-627.0,"y":122.0},"guid":"01373b38-c130-4bce-b623-84b8f627aa5d","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"45"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"43"},"destinationKey":"enter","guid":"2845157b-dad3-4920-97a6-cfd49244af3d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"43"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"40"},"destinationKey":"assign","guid":"b3649e98-ba86-48cd-ab01-2540db51545f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"22"},"destinationKey":"b","guid":"427b44c4-217f-463c-864c-bd885dc2cbc9","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"22"},"destinationKey":"a","guid":"25fccfc0-68ec-4cf2-8459-43cf074b14b4","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"36"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"b","guid":"1449e04f-e76e-49af-a959-56d55798cbed","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"45"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"a","guid":"800832cb-7824-4dbd-8f43-2ad6d9311f31","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"30"},"sourceKey":"value","destinationUnit":{"$ref":"24"},"destinationKey":"b","guid":"3a5144a6-2d6a-4828-b8a3-1d3fa1d7c49c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"32"},"sourceKey":"value","destinationUnit":{"$ref":"24"},"destinationKey":"a","guid":"65868513-6625-4c08-8c6a-e6018a5da6d6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"result","destinationUnit":{"$ref":"26"},"destinationKey":"b","guid":"3ec84098-11d2-4bba-9082-2eca9ba3d155","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"26"},"sourceKey":"result","destinationUnit":{"$ref":"38"},"destinationKey":"b","guid":"88e76ba5-629e-4c25-aae0-9155647307dd","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"result","destinationUnit":{"$ref":"34"},"destinationKey":"b","guid":"1be39848-762d-4c29-94bd-24747b788c1a","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"result","destinationUnit":{"$ref":"34"},"destinationKey":"a","guid":"bee2a748-49ea-4920-baa7-8fc53d5e648d","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"34"},"sourceKey":"result","destinationUnit":{"$ref":"38"},"destinationKey":"a","guid":"b41a0987-5be2-44c9-af7b-80b5aaa0a5e4","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"38"},"sourceKey":"result","destinationUnit":{"$ref":"43"},"destinationKey":"condition","guid":"29dfa8b1-012d-424f-8e2d-a2b1412cf2f6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"a","guid":"95b1bfec-5d17-4662-962d-1e74bf236819","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"result","destinationUnit":{"$ref":"26"},"destinationKey":"a","guid":"49dc5afb-0af0-4217-b4d4-0dacfbafbf71","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"28"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"b","guid":"c0bafb93-6416-4415-ab54-4163a0e41da5","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
     _objectReferences: []
 --- !u!114 &1004275380
 MonoBehaviour:
@@ -5614,11 +5520,11 @@ RectTransform:
   - {fileID: 902581559}
   m_Father: {fileID: 244941112}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -50, y: 25}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 450, y: 150}
+  m_SizeDelta: {x: 150, y: 70}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1198708891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5733,90 +5639,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198708889}
   m_CullTransparentMesh: 1
---- !u!1 &1212316943
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1212316944}
-  - component: {fileID: 1212316945}
-  m_Layer: 0
-  m_Name: House2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1212316944
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1212316943}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.3814, y: 0.8988, z: 0}
-  m_LocalScale: {x: 6.6503105, y: 11.829899, z: 9.5763}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1899763812}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1212316945
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1212316943}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 363694961
-  m_SortingLayer: 1
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.9245283, g: 0.9027234, b: 0.9027234, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1221276917
 GameObject:
   m_ObjectHideFlags: 0
@@ -5842,17 +5664,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221276917}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.03232079, w: 0.99947757}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1530468714}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.704}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -75}
-  m_SizeDelta: {x: -400, y: 50}
+  m_AnchoredPosition: {x: -452.1858, y: -475}
+  m_SizeDelta: {x: -1359.5991, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1221276919
 MonoBehaviour:
@@ -6128,7 +5950,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.012827665, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6139,7 +5961,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.58952874, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &1378986231
 SpriteRenderer:
@@ -6444,6 +6266,7 @@ RectTransform:
   m_Children:
   - {fileID: 1532563688}
   - {fileID: 380160192}
+  - {fileID: 1640651732}
   - {fileID: 910558506}
   - {fileID: 40212237}
   - {fileID: 1471698953}
@@ -6452,7 +6275,6 @@ RectTransform:
   - {fileID: 1281421612}
   - {fileID: 1551095041}
   - {fileID: 1683284064}
-  - {fileID: 1640651732}
   - {fileID: 1771224488}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6694,8 +6516,8 @@ Transform:
   m_GameObject: {fileID: 1538122146}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.2173, y: -1.69, z: 0}
-  m_LocalScale: {x: 0.38129976, y: 0.38129976, z: 0.38129976}
+  m_LocalPosition: {x: -5.38, y: -2.29, z: 0}
+  m_LocalScale: {x: 0.24814989, y: 0.24814989, z: 0.24814989}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -6880,17 +6702,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575792227}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.03232079, w: 0.99947757}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 211660789}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.704}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -75}
-  m_SizeDelta: {x: -400, y: 50}
+  m_AnchoredPosition: {x: -452.1858, y: -475}
+  m_SizeDelta: {x: -1359.5991, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1575792229
 MonoBehaviour:
@@ -7042,7 +6864,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
+  m_AnchoredPosition: {x: 375, y: -250}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1610497091
@@ -7281,6 +7103,9 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"puzzleSprites","value":{"$content":[28,29,30,31,32,33,34,35],"$type":"System.Collections.Generic.List`1[[UnityEngine.Sprite,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.Sprite,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"itemFeedbackSprites","value":{"$content":[null,null,null,null,36,null,37,38],"$type":"System.Collections.Generic.List`1[[UnityEngine.Sprite,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.Sprite,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 841166201}
@@ -7319,6 +7144,9 @@ MonoBehaviour:
     - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
     - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
     - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    - {fileID: 21300000, guid: 4570e65400585fd46aa60b555f5cd508, type: 3}
+    - {fileID: 21300000, guid: fe700d457f6df534cb8963f23384f25d, type: 3}
+    - {fileID: 21300000, guid: e61b4aa1735b6be4c99a8773c3c55c80, type: 3}
 --- !u!4 &1673909368
 Transform:
   m_ObjectHideFlags: 0
@@ -7574,8 +7402,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 75, y: -75}
-  m_SizeDelta: {x: 650, y: 300}
+  m_AnchoredPosition: {x: 698.1424, y: 4.8455}
+  m_SizeDelta: {x: 852.86, y: 702.8901}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1692591392
 MonoBehaviour:
@@ -7599,10 +7427,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 31
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -7610,18 +7438,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Item Discription Text\n\nLorem ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor.\nAenean massa. Cum sociis natoque penatibus
-    et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-    nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. \nDonec
-    pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-    mollis pretium. Integer tincidunt. \nCras dapibus. Vivamus elementum semper nisi.
-    Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
-    vitae, eleifend ac, enim. \nAliquam lorem ante, dapibus in, viverra quis, feugiat
-    a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-    imperdiet. \nEtiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-    nisi."
+  m_Text: "Geschlechtsspezifische Rollen im Kindesalter - \"Frauenjob\"\nSchon als
+    Kinder lernen wir, dass es verschiedene Arten von Menschen gibt, indem wir beobachten
+    und lernen. Wenn Kinder lernen, dass bestimmte Merkmale, Verhaltensweisen oder
+    Rollen zu M\xE4nnern oder Frauen geh\xF6ren, entwickeln sie \xDCberzeugungen
+    dar\xFCber, was typisch f\xFCr diese Gruppen ist.\n Dies kann dazu f\xFChren,
+    dass M\xE4nner in berufliche T\xE4tigkeiten mit handwerklichem Geschick und k\xF6rperlicher
+    Anstrengung eingeordnet werden, w\xE4hrend Frauen auf als \"Frauenjobs\" bezeichnete
+    T\xE4tigkeiten reduziert werden, die auch als Synonym f\xFCr \"leichtere Jobs\"
+    verwendet werden."
 --- !u!222 &1692591393
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7658,7 +7483,7 @@ Transform:
   m_GameObject: {fileID: 1733101747}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.33, y: 2.04, z: 0.07423475}
+  m_LocalPosition: {x: -3.11, y: -1.95, z: 0.07423475}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7711,7 +7536,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.06687403, y: 0.28421366}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7722,7 +7547,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.59875727, y: 1.5684273}
   m_EdgeRadius: 0
 --- !u!212 &1733101751
 SpriteRenderer:
@@ -7765,7 +7590,7 @@ SpriteRenderer:
   m_SortingLayerID: -175293797
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 0.501272, g: 0.39607844, b: 0.78431374, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7773,7 +7598,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1737445957
@@ -7891,8 +7716,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 75, y: -75}
-  m_SizeDelta: {x: 650, y: 300}
+  m_AnchoredPosition: {x: 698.1424, y: 4.8455}
+  m_SizeDelta: {x: 852.86, y: 702.8901}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1752618525
 MonoBehaviour:
@@ -7916,10 +7741,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 31
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -7927,18 +7752,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Item Discription Text\n\nLorem ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor.\nAenean massa. Cum sociis natoque penatibus
-    et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-    nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. \nDonec
-    pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-    mollis pretium. Integer tincidunt. \nCras dapibus. Vivamus elementum semper nisi.
-    Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
-    vitae, eleifend ac, enim. \nAliquam lorem ante, dapibus in, viverra quis, feugiat
-    a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-    imperdiet. \nEtiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-    nisi."
+  m_Text: Hier ist das Minigame!!
 --- !u!222 &1752618526
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8127,7 +7941,7 @@ Transform:
   m_GameObject: {fileID: 1800932007}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.18, y: 2.65, z: 0.07423475}
+  m_LocalPosition: {x: -3.25, y: 3.1, z: 0.07423475}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8234,7 +8048,7 @@ SpriteRenderer:
   m_SortingLayerID: -175293797
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 0.5686275, g: 0.7247289, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8242,7 +8056,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1810300881
@@ -8360,11 +8174,11 @@ RectTransform:
   - {fileID: 2105037693}
   m_Father: {fileID: 1810300882}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -50, y: 25}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 250, y: 150}
+  m_SizeDelta: {x: 300, y: 70}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1820699836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8545,7 +8359,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0063179433, y: 0.000000029802322}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8556,7 +8370,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.6841, y: 0.68409985}
   m_EdgeRadius: 0
 --- !u!212 &1861639850
 SpriteRenderer:
@@ -8656,8 +8470,6 @@ Transform:
   m_Children:
   - {fileID: 164373714}
   - {fileID: 413325479}
-  - {fileID: 741772404}
-  - {fileID: 1212316944}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1913536955
@@ -8694,7 +8506,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
+  m_AnchoredPosition: {x: 375, y: -250}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1913536957
@@ -8734,85 +8546,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913536955}
-  m_CullTransparentMesh: 1
---- !u!1 &1932217639
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1932217640}
-  - component: {fileID: 1932217642}
-  - component: {fileID: 1932217641}
-  m_Layer: 5
-  m_Name: Text (Legacy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1932217640
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932217639}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1004275375}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1932217641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932217639}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Puzzle
---- !u!222 &1932217642
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932217639}
   m_CullTransparentMesh: 1
 --- !u!1 &1947158055
 GameObject:
@@ -8995,11 +8728,11 @@ RectTransform:
   - {fileID: 457728652}
   m_Father: {fileID: 1530468714}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -50, y: 25}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 250, y: 150}
+  m_SizeDelta: {x: 300, y: 70}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1960312146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9150,11 +8883,11 @@ RectTransform:
   - {fileID: 972030303}
   m_Father: {fileID: 1143071541}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -50, y: 25}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 250, y: 150}
+  m_SizeDelta: {x: 300, y: 70}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1963327729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9305,11 +9038,11 @@ RectTransform:
   - {fileID: 1981754533}
   m_Father: {fileID: 477380350}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -50, y: 25}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 250, y: 150}
+  m_SizeDelta: {x: 300, y: 70}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1981593671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9537,8 +9270,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 75, y: -75}
-  m_SizeDelta: {x: 650, y: 300}
+  m_AnchoredPosition: {x: 698.1424, y: 4.8455}
+  m_SizeDelta: {x: 852.86, y: 702.8901}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &2023485800
 MonoBehaviour:
@@ -9562,7 +9295,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 31
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -9573,18 +9306,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Gender-Pay-Gap\nIm Jahr 2022 verdienten Frauen in Deutschland durchschnittlich
-    18% weniger pro Stunde als M\xE4nner. Laut dem Statistischen Bundesamt (Destatis)
-    betrug der Bruttostundenverdienst von Frauen im Durchschnitt 20,05 Euro, was
-    4,31 Euro weniger ist als der Verdienst von M\xE4nnern, der bei 24,36 Euro lag.\n\nFrauen
-    verdienen im Vergleich zu M\xE4nnern wesentlich weniger, was haupts\xE4chlich
-    auf die ungleiche Verteilung unbezahlter Sorgearbeit zur\xFCckzuf\xFChren ist,
-    insbesondere bei der Kinderbetreuung. Laut WSI-Forscherin Karin Schulze Buschoff
-    neigen Frauen daher oft dazu, auf Teilzeit auszuweichen, was langfristig zu erheblichen
-    Gehaltseinbu\xDFen f\xFChrt. Zudem werden Frauen in Teilzeit h\xE4ufig bei Bef\xF6rderungen
-    \xFCbersehen. Die Diskriminierung von Frauen durch einzelne Arbeitgeber spielt
-    ebenfalls eine Rolle, besonders in Unternehmen ohne klare und transparente Regeln
-    zur Entgeltstruktur."
+  m_Text: "Zwangsehe - Kindesalter:\nZwangsheirat bedeutet, dass eine:r oder beide
+    Eheleute unabh\xE4ngig vom Alter keine volle und freie Zustimmung geben. Gesellschaftliche
+    Zw\xE4nge, Tradition, fr\xFChe Schwangerschaft und Armut sind h\xE4ufige Gr\xFCnde
+    f\xFCr Zwangsehen. M\xE4dchen werden oft verheiratet, wenn sie die Schule verlassen,
+    da Pubert\xE4t als Erwachsensein betrachtet wird. Die Familie f\xFCrchtet die
+    Schande sexueller Kontakte au\xDFerhalb der Ehe, was zu arrangierten Heiraten
+    f\xFChren kann.\nDiese Zwangsheiratstraditionen bringen schwerwiegenden Konsequenzen:
+    M\xE4dchen brechen die Schule ab, um den Haushalt zu f\xFChren, und eine Fortsetzung
+    der Ausbildung nach der Zwangsverheiratung ist unwahrscheinlich. Oft folgt der
+    Ehe rasch eine Schwangerschaft, da dies gesellschaftlich erwartet wird.\n\nBis
+    2050 k\xF6nnten laut Save the Children bis zu 1,2 Milliarden Frauen und M\xE4dchen
+    weltweit in Zwangsehen leben."
 --- !u!222 &2023485801
 CanvasRenderer:
   m_ObjectHideFlags: 0
