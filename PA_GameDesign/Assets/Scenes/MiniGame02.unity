@@ -990,7 +990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &200383991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1067,6 +1067,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 706764098}
+  - {fileID: 1179021991}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2093,7 +2094,7 @@ GameObject:
   - component: {fileID: 706764100}
   - component: {fileID: 706764099}
   m_Layer: 5
-  m_Name: GameInfoMinigame
+  m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2110,13 +2111,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1179021991}
+  m_Children: []
   m_Father: {fileID: 200383994}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.5913086, y: -1.4575806}
+  m_AnchoredPosition: {x: -2.5913, y: -1.4576}
   m_SizeDelta: {x: 167.1367, y: 94.0143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &706764099
@@ -2910,11 +2910,11 @@ RectTransform:
   - {fileID: 306688051}
   - {fileID: 390579015}
   - {fileID: 2051196288}
-  m_Father: {fileID: 706764098}
+  m_Father: {fileID: 200383994}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.908}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24.408691, y: -27.54242}
+  m_AnchoredPosition: {x: -27, y: -29}
   m_SizeDelta: {x: 978.6295, y: 979.4603}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1179021992
@@ -4295,8 +4295,6 @@ GameObject:
   - component: {fileID: 2051196291}
   - component: {fileID: 2051196290}
   - component: {fileID: 2051196289}
-  - component: {fileID: 2051196293}
-  - component: {fileID: 2051196292}
   m_Layer: 5
   m_Name: Starten
   m_TagString: Untagged
@@ -4406,38 +4404,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051196287}
   m_CullTransparentMesh: 1
---- !u!114 &2051196292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051196287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":699.0249,"y":-40.28057},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":49.0,"y":-80.0},"guid":"65802ee5-997b-4aca-8348-995edc5b416b","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"10"},{"chainable":false,"parameterNames":["value"],"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":false,"$type":"System.Boolean"}},"position":{"x":422.0,"y":-79.0},"guid":"39f1eab8-40e3-4c1f-a26e-6820f33b317b","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"12"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"InfoPanel","$type":"System.String"},"object":null},"position":{"x":198.0,"y":89.0},"guid":"d5de784b-0f1a-4560-a2ef-7833ceadb6a9","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"cc699b74-21af-46a3-bda4-ec2fe61e9bee","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"66c59f7b-2f2e-4337-bcb8-c49130cf9ff1","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
-    _objectReferences: []
---- !u!114 &2051196293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051196287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"InfoPanel","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 706764097}
 --- !u!4 &2093483527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
