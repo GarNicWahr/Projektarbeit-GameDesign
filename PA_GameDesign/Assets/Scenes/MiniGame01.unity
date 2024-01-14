@@ -227,7 +227,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &32161922
 RectTransform:
   m_ObjectHideFlags: 0
@@ -930,7 +930,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 367.5, y: 348}
+  m_SizeDelta: {x: 367.5, y: 521}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &143106479
 MonoBehaviour:
@@ -969,6 +969,159 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143106477}
+  m_CullTransparentMesh: 1
+--- !u!1 &146318026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 146318027}
+  - component: {fileID: 146318032}
+  - component: {fileID: 146318031}
+  - component: {fileID: 146318030}
+  - component: {fileID: 146318029}
+  - component: {fileID: 146318028}
+  m_Layer: 5
+  m_Name: Button (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &146318027
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146318026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1647085830}
+  m_Father: {fileID: 505571226}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -20, y: 20}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 1, y: 0}
+--- !u!114 &146318028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146318026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-431.0,"y":-96.0},"guid":"efe6e701-be7d-4a83-a944-acd4d2e75e41","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"10"},{"kind":"Scene","defaultValues":{"name":{"$content":"textDelay","$type":"System.String"}},"position":{"x":18.0,"y":-167.0},"guid":"d02a85e8-eb26-4b7e-905d-ae0133d11167","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"12"},{"type":"System.Single","value":{"$content":0.0,"$type":"System.Single"},"defaultValues":{},"position":{"x":-125.0,"y":-40.0},"guid":"bacb3e20-7e14-4e9e-b13d-d2e46e33fa20","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"14"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"assign","guid":"0347b088-56d8-43bb-a4a1-24fd7f3e4aa4","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"output","destinationUnit":{"$ref":"12"},"destinationKey":"input","guid":"4e17666e-f25b-473a-af1d-0722f9f7e2d8","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &146318029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146318026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &146318030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146318026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 146318031}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &146318031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146318026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &146318032
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146318026}
   m_CullTransparentMesh: 1
 --- !u!1 &176596382
 GameObject:
@@ -1545,7 +1698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-671.0,"y":-179.0},"guid":"edde409b-1c51-4b80-8948-dc08c4571c37","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"10"},{"argumentCount":0,"defaultValues":{"name":{"$content":"FillOptionList","$type":"System.String"},"target":null},"position":{"x":-330.0,"y":-182.0},"guid":"c6dc452a-342a-4961-955f-ab3a56a1bee2","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"12"},{"chainable":false,"parameterNames":["value"],"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"},"%value":{"$content":true,"$type":"System.Boolean"}},"position":{"x":-76.0,"y":-164.0},"guid":"5771d504-e07a-43fd-ac59-76b2985cf294","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"14"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"gameManager","$type":"System.String"}},"position":{"x":-568.0,"y":-33.0},"guid":"7832a189-b4e7-4169-8127-c9c73d5843be","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"3cbcaef0-130d-4790-a22b-05356e73bbd3","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"exit","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"791c639f-128b-4286-97c3-c8db3085660e","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"f4609249-193d-45c6-8c13-ac691b514324","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-486.0,"y":41.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-1664.0,"y":-201.0},"guid":"edde409b-1c51-4b80-8948-dc08c4571c37","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"10"},{"argumentCount":0,"defaultValues":{"name":{"$content":"FillOptionList","$type":"System.String"},"target":null},"position":{"x":-1036.0,"y":-260.0},"guid":"c6dc452a-342a-4961-955f-ab3a56a1bee2","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"12"},{"chainable":false,"parameterNames":["value"],"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"},"%value":{"$content":true,"$type":"System.Boolean"}},"position":{"x":-650.0,"y":-235.0},"guid":"5771d504-e07a-43fd-ac59-76b2985cf294","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"14"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"gameManager","$type":"System.String"}},"position":{"x":-1330.0,"y":-74.0},"guid":"7832a189-b4e7-4169-8127-c9c73d5843be","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"sourceUnit":{"$ref":"12"},"sourceKey":"exit","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"a26b76bc-cb85-4209-9808-d4ad41537620","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"1436b201-2b59-4da3-9de6-724b226d9675","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"a24076d3-f37d-41bf-b7bb-019cf1970a3b","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
     _objectReferences:
     - {fileID: 32161921}
 --- !u!114 &220032758
@@ -2156,6 +2309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyNormal (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2110007724542286671, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_TagString
+      value: EnemyLv01
+      objectReference: {fileID: 0}
     - target: {fileID: 8034611953597527964, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speed","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -2207,6 +2364,7 @@ RectTransform:
   - {fileID: 1838301370}
   - {fileID: 1261872354}
   - {fileID: 1258644030}
+  - {fileID: 146318027}
   m_Father: {fileID: 1875450452}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2528,11 +2686,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1676047773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 367.5, y: 348}
-  m_Pivot: {x: 1, y: 0.5}
+  m_SizeDelta: {x: 367.5, y: 521}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &580430905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2601,10 +2759,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 74423192}
-  - {fileID: 1590725953}
   - {fileID: 1242702158}
   - {fileID: 1443833576}
-  - {fileID: 1829021545}
   - {fileID: 441734763}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2906,40 +3062,69 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"fightPanel","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"buttonPanel","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"runButton","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"answersEnemyAggressive","value":{"$content":["EY!
-      BOCK ZU FI*KEN?!!","Du hattest noch nie so einen wie mich. Versprochen.","Ey,
-      ich kenn'' da einen Ort der wird dir bestimmt gefallen.","Stell dich nicht
-      so an. Was soll die sch\u00fcchterne M\u00e4dchen-Nummer?","Ich bin der perfekte
-      Mann f\u00fcr dich. Du solltest mitkommen.","Ich und meine Jungs wissen genau
-      worauf ein M\u00e4dchen wie du bock h\u00e4ttest.","Ich wei\u00df, ich bin
-      nicht dein Typ, aber ich k\u00f6nnte es sein.","Verr\u00e4tst du mir wie du
-      hei\u00dft? Damit ich wei\u00df welchen Namen ich heute Nacht rufen muss!","Bist
-      du immer so schwer zu bekommen, oder spiele ich das Spiel nicht richtig?","Kennen
-      wir uns? Du siehst aus wie mein n\u00e4chstes Date.","Ich kann sehen, dass
-      du ''nein'' sagst, aber dein Herz sagt ''vielleicht''."],"$type":"System.Collections.Generic.List`1[[System.String,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"answersEnemyLv01","value":{"$content":["Du
+      bist richtig h\u00fcbsch. Wow!","Wie sch\u00f6n du bist. Wir m\u00fcssen unbedingt
+      einen Kaffee trinken gehen.","Du musst m\u00fcde sein, weil du mir den ganzen
+      Tag durch den Kopf gelaufen bist.","Ich hab'' dich gesehen und musste dich
+      einfach ansprechen.\"","Entschuldigung, aber ich habe meinen Weg verloren.
+      K\u00f6nntest du mir den Weg zu deinem Herzen zeigen?","Bist du ein Dieb? Denn
+      du hast mein Herz gestohlen.","Entschuldigung, aber ich habe meine Telefonnummer
+      verloren. Kann ich deine bekommen?","Hast du eine Karte? Ich verirre mich immer
+      in deinen Augen."],"$type":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"answersEnemyHarassing","value":{"$content":["Hey,
-      ich hab'' dich gesehen und musste dich einfach ansprechen.\"","Wohin gehst
-      du? Kann ich mit?","Ich bin mir sicher wir haben uns schon mal gesehen. So
-      ein sch\u00f6nes Gesicht vergess'' ich nicht.","Du bist richtig h\u00fcbsch.
-      Wow!","Wie sch\u00f6n du bist. Wir m\u00fcssen unbedingt einen Kaffee trinken
-      gehen.","Du siehst aus, wie die Mutter meiner Kinder.","Es ist schon sp\u00e4t,
-      soll ich dich nach Hause begleiten? Ich wei\u00df ja wo du wohnst ;)","Du musst
-      m\u00fcde sein, weil du mir den ganzen Tag durch den Kopf gelaufen bist.","Hi
-      Kleine! Soll ich dir den Tag vers\u00fc\u00dfen?","Hey Schnittchen, schon belegt?"],"$type":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"answersEnemyLv02","value":{"$content":["Hey,
+      ich kenne einen gro\u00dfartigen Ort f\u00fcr uns zwei. Wie w\u00e4re es mit
+      einem romantischen Abend?","Ich bin mir sicher wir haben uns schon mal gesehen.
+      So ein sch\u00f6nes Gesicht vergess'' ich nicht.","Wohin gehst du? Kann ich
+      mit?","Du siehst aus, als k\u00f6nntest du ein Abenteuer gebrauchen. Wie w\u00e4re
+      es mit einem Date?","Soll ich dich nicht lieber nach Hause begleiten? Ich wei\u00df
+      ja wo du wohnst ;)","Du schaust aus, wie die Mutter meiner Kinder.","Was macht
+      so eine sch\u00f6ne Frau wie du alleine hier drau\u00dfen?","Na Kleine! Soll
+      ich dir den Tag vers\u00fc\u00dfen?","Na Schnittchen, schon belegt?"],"$type":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"answersPlayer","value":{"$content":["Verpiss
-      dich!!","Ich hab'' gerade keine Zeit.","...","Lass'' es einfach.","Bitte lass''
-      mich in Ruhe.","Ich bin schon vergeben.","Nein!","Echt jetzt?","Magst du nicht
-      jemand anderen nerven?","Oh man, wirklich?","Tut mir leid aber ich hab echt
-      kein Interesse.","Bitte nicht, ich m\u00f6chte das nicht.","Nein danke, ich
-      bin nicht interessiert.","Das ist kein ''Nein, danke'', das ist ein klares
-      ''Nein''.","Du willst es einfach nicht verstehen oder?","Ich m\u00f6chte kein
-      Gespr\u00e4ch, bitte geh weiter.","Ich m\u00f6chte, dass du aufh\u00f6rst,
-      mich anzusprechen.","Bitte versteh, dass ich kein Interesse an einem Gespr\u00e4ch
-      habe.","ich m\u00f6chte keine Unterhaltung f\u00fchren oder angesprochen werden."],"$type":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"answersEnemyLv03","value":{"$content":["Ich
+      bin der perfekte Mann f\u00fcr dich. Du solltest mitkommen.","Ey, ich kenn''
+      da einen Ort der wird dir bestimmt gefallen.","Dein Outfit sieht wirklich hei\u00df
+      aus. Das passt gut zu unserem Date heute Abend.","Ach komm, stell dich nicht
+      so an. Was soll die sch\u00fcchterne M\u00e4dchen-Nummer?","Ich kann sehen,
+      dass du ''nein'' sagst, aber dein Herz sagt ''vielleicht''.","Ich kann nicht
+      aufh\u00f6ren, dich anzustarren. Du hast etwas Magisches an dir.","Kennen wir
+      uns? Du siehst aus wie mein n\u00e4chstes Date.","Ich wei\u00df, ich bin nicht
+      dein Typ, aber ich k\u00f6nnte es sein."],"$type":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"answersEnemyLv04","value":{"$content":["EY!
+      BOCK ZU FI*KEN?!!","Du hattest noch nie so einen wie mich. Versprochen.","Ich
+      und meine Jungs wissen genau worauf ein M\u00e4dchen wie du bock h\u00e4ttest.","Verr\u00e4tst
+      du mir wie du hei\u00dft? Damit ich wei\u00df welchen Namen ich heute Nacht
+      rufen muss!","Bist du immer so schwer zu bekommen, oder spiele ich das Spiel
+      nicht richtig?","Ich wei\u00df, wo du so rumh\u00e4ngst. Ich werde auf dich
+      warten, wenn du mich jetzt abweist.","Du siehst aus, als ob du Hilfe brauchst.
+      Ich k\u00f6nnte derjenige sein, der dir alles gibt, was du brauchst.","Du kannst
+      nicht entkommen. Ich werde dich so lange verfolgen, bis du mir Aufmerksamkeit
+      schenkst."],"$type":"System.Collections.Generic.List`1[[System.String, mscorlib,
+      Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"answersPlayerLv1+2","value":{"$content":["Ich
+      bin schon vergeben.","Bitte versteh, dass ich kein Interesse an einem Gespr\u00e4ch
+      habe.","Tut mir leid aber ich hab echt kein Interesse.","Magst du nicht jemand
+      anderen nerven?","Ich m\u00f6chte, dass du aufh\u00f6rst, mich anzusprechen.","ich
+      m\u00f6chte keine Unterhaltung f\u00fchren oder angesprochen werden.","Ich
+      m\u00f6chte kein Gespr\u00e4ch, bitte geh weiter.","Nein danke, ich bin nicht
+      interessiert.","Ich hab'' gerade keine Zeit.","Bitte lass mich einfach in Ruhe.","Kannst
+      du bitte gehen?","Und damit hattest du schonmal Erfolg?","Glaubst du wirklich,
+      dass das gut ankommt?"],"$type":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"answersPlayerLv3+4","value":{"$content":["Verpiss
+      dich!!","Lass'' mich in Ruhe.","Nein!","Ich mag das Ger\u00e4usch, dass du
+      machst, wenn du die Fresse h\u00e4ltst.","Du willst es einfach nicht verstehen
+      oder?","H\u00f6r auf, ich m\u00f6chte das nicht.","Lass'' es einfach.","Ich
+      will nicht mit dir reden!","Echt jetzt?","Oh man, wirklich?","Das ist kein
+      ''Nein, danke'', das ist ein klares ''Nein''.","Wie kann man so eklig sein?!","Geh
+      weg!","Igitt!!"],"$type":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"enemyNameList","value":{"$content":["Kevin","Justin","Markus","Fabian","Jonas","Wolfgang","Sven","Niclas","Dominik","Sebastian","Manfred","J\u00fcrgen","Gustaf","Georg","Leon","G\u00fcnther","Marcel","Max","Florian","Christian","Felix","Peter"],"$type":"System.Collections.Generic.List`1[[System.String,
@@ -2947,18 +3132,18 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"minAnswers","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"maxAnswers","value":{"$content":4,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"textDelay","value":{"$content":0.05,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"textDelayStandard","value":{"$content":0.05,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"delayEnd","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"enemyNameTag","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"enemyNamePanel","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"gameInfoPanel","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"overlayText","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
-      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"grayoutList","value":{"$content":[12,13,14,15,16,17],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"grayoutList","value":{"$content":[12,13,14,15],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"memePanel","value":{"$content":18,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"runButtonText","value":{"$content":19,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
-      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"backButtonMeme","value":{"$content":20,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"memePanel","value":{"$content":16,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"runButtonText","value":{"$content":17,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"backButtonMeme","value":{"$content":18,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1929465689}
@@ -2977,8 +3162,6 @@ MonoBehaviour:
     - {fileID: 143106477}
     - {fileID: 851674635}
     - {fileID: 580430903}
-    - {fileID: 1486712756}
-    - {fileID: 1451726442}
     - {fileID: 974259429}
     - {fileID: 1681117444}
     - {fileID: 1201158053}
@@ -3118,7 +3301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":69.36079,"y":-230.7794},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-512.0,"y":-51.0},"guid":"41b9ebfa-2e09-4657-970b-5012b1518960","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"10"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"optionList","$type":"System.String"}},"position":{"x":-250.0,"y":-249.0},"guid":"9230e38c-5cf3-4763-af31-da1facd79df1","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"12"},{"defaultValues":{"index":{"$content":0,"$type":"System.Int32"}},"position":{"x":-59.0,"y":-341.0},"guid":"5d222039-80d4-4098-a9eb-eed3c5aac582","$version":"A","$type":"Unity.VisualScripting.GetListItem","$id":"14"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"},"input":{"$content":"","$type":"System.String"}},"position":{"x":123.0,"y":-507.0},"guid":"0555fc61-038c-4842-9e8c-29c4cefdc5c2","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"16"},{"argumentCount":1,"defaultValues":{"name":{"$content":"Options","$type":"System.String"},"target":null},"position":{"x":47.0,"y":-62.0},"guid":"02d8d021-c2a6-4c0f-9592-971ac3a99098","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"19"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"gameManager","$type":"System.String"}},"position":{"x":-299.0,"y":37.0},"guid":"6c804f3f-76c9-48ab-af83-4eb2eac56484","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"21"},{"type":"System.Int32","value":{"$content":0,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-233.0,"y":142.0},"guid":"46d10f5e-fb7e-441d-a458-7ea6353eb723","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"23"},{"coroutine":false,"defaultValues":{},"position":{"x":-561.0,"y":-540.0},"guid":"0355f54a-ea62-4d69-b686-3c93333ef3d5","$version":"A","$type":"Unity.VisualScripting.OnEnable","$id":"25"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"57e10b04-9126-48ad-8161-21fb6f0f5499","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"25"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"c4e7ab92-db13-4130-bc9d-b3f29641fd56","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"list","guid":"dc6c4a19-488d-44e4-aeb2-5179b322f0ae","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"item","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"3841ffcb-e93e-483d-b143-2f5e464dd1e6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"target","guid":"6def79a7-f763-46d3-b1f6-fef5149fdae9","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"output","destinationUnit":{"$ref":"19"},"destinationKey":"argument_0","guid":"55da45b1-14e9-42ca-a4fb-3b856675aec2","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-88.63922,"y":37.22058},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-512.0,"y":-51.0},"guid":"41b9ebfa-2e09-4657-970b-5012b1518960","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"10"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"optionList","$type":"System.String"}},"position":{"x":-250.0,"y":-249.0},"guid":"9230e38c-5cf3-4763-af31-da1facd79df1","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"12"},{"defaultValues":{"index":{"$content":0,"$type":"System.Int32"}},"position":{"x":-59.0,"y":-341.0},"guid":"5d222039-80d4-4098-a9eb-eed3c5aac582","$version":"A","$type":"Unity.VisualScripting.GetListItem","$id":"14"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"},"input":{"$content":"","$type":"System.String"}},"position":{"x":123.0,"y":-507.0},"guid":"0555fc61-038c-4842-9e8c-29c4cefdc5c2","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"16"},{"argumentCount":1,"defaultValues":{"name":{"$content":"Options","$type":"System.String"},"target":null},"position":{"x":47.0,"y":-62.0},"guid":"02d8d021-c2a6-4c0f-9592-971ac3a99098","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"19"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"gameManager","$type":"System.String"}},"position":{"x":-299.0,"y":37.0},"guid":"6c804f3f-76c9-48ab-af83-4eb2eac56484","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"21"},{"type":"System.Int32","value":{"$content":0,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-233.0,"y":142.0},"guid":"46d10f5e-fb7e-441d-a458-7ea6353eb723","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"23"},{"coroutine":false,"defaultValues":{},"position":{"x":-561.0,"y":-540.0},"guid":"0355f54a-ea62-4d69-b686-3c93333ef3d5","$version":"A","$type":"Unity.VisualScripting.OnEnable","$id":"25"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"57e10b04-9126-48ad-8161-21fb6f0f5499","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"25"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"c4e7ab92-db13-4130-bc9d-b3f29641fd56","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"list","guid":"dc6c4a19-488d-44e4-aeb2-5179b322f0ae","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"item","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"3841ffcb-e93e-483d-b143-2f5e464dd1e6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"target","guid":"6def79a7-f763-46d3-b1f6-fef5149fdae9","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"output","destinationUnit":{"$ref":"19"},"destinationKey":"argument_0","guid":"55da45b1-14e9-42ca-a4fb-3b856675aec2","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
     _objectReferences:
     - {fileID: 1099660775}
 --- !u!114 &820155891
@@ -3168,11 +3351,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1676047773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 367.5, y: 348}
-  m_Pivot: {x: 0, y: 0.5}
+  m_SizeDelta: {x: 367.5, y: 521}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &851674637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3903,7 +4086,7 @@ GameObject:
   - component: {fileID: 1002735080}
   m_Layer: 0
   m_Name: LowerBorder
-  m_TagString: Untagged
+  m_TagString: Border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4379,7 +4562,7 @@ GameObject:
   - component: {fileID: 1103924095}
   m_Layer: 0
   m_Name: UpperBorder
-  m_TagString: Untagged
+  m_TagString: Border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5120,7 +5303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2110007724542286671, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
       propertyPath: m_TagString
-      value: EnemyAggressive
+      value: EnemyLv03
       objectReference: {fileID: 0}
     - target: {fileID: 2812042966435902369, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
       propertyPath: m_Sprite
@@ -5690,7 +5873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":182.0,"y":-280.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-402.0,"y":92.0},"guid":"308afa82-9dd9-4d9a-a0c7-2e55ab4624aa","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"10"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"optionList","$type":"System.String"}},"position":{"x":-140.0,"y":-106.0},"guid":"45937e14-b8e4-4678-affa-b4950c7d5df1","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"12"},{"defaultValues":{"index":{"$content":3,"$type":"System.Int32"}},"position":{"x":52.0,"y":-198.0},"guid":"13f7d8da-bb25-4d23-9fbd-44f149344e47","$version":"A","$type":"Unity.VisualScripting.GetListItem","$id":"14"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"},"input":{"$content":"","$type":"System.String"}},"position":{"x":234.0,"y":-364.0},"guid":"8fc15e7a-01ac-4a80-bcb9-0d3e4519eb16","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"16"},{"argumentCount":1,"defaultValues":{"name":{"$content":"Options","$type":"System.String"},"target":null},"position":{"x":158.0,"y":81.0},"guid":"c8b11323-4799-4e8e-b1f7-7ce4845eb744","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"19"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"gameManager","$type":"System.String"}},"position":{"x":-188.0,"y":180.0},"guid":"a787836f-f79b-4a3e-a132-f1eeb2282d79","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"21"},{"type":"System.Int32","value":{"$content":3,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-122.0,"y":285.0},"guid":"40d6bd59-c5af-453f-b2ff-c720604fd857","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"23"},{"coroutine":false,"defaultValues":{},"position":{"x":-216.0,"y":-394.0},"guid":"5c77b005-08ce-4398-8f62-a31f139e7d37","$version":"A","$type":"Unity.VisualScripting.OnEnable","$id":"25"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"6bc84f08-4687-4a22-ae4d-7f9a3501c1a0","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"25"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"bcc7b1c4-12da-440f-9c1e-752dbc488df8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"list","guid":"e5606b6f-1b25-4b43-b52e-fef15e5179c4","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"item","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"d19afcf9-3512-40cf-b863-29aba9c9db7c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"target","guid":"5d637c2e-ccdc-42b5-8f39-1b2e785bf5b3","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"output","destinationUnit":{"$ref":"19"},"destinationKey":"argument_0","guid":"21e75226-b0b5-4d86-b33b-6301ce746977","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-20.0,"y":91.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-402.0,"y":92.0},"guid":"308afa82-9dd9-4d9a-a0c7-2e55ab4624aa","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"10"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"optionList","$type":"System.String"}},"position":{"x":-140.0,"y":-106.0},"guid":"45937e14-b8e4-4678-affa-b4950c7d5df1","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"12"},{"defaultValues":{"index":{"$content":3,"$type":"System.Int32"}},"position":{"x":52.0,"y":-198.0},"guid":"13f7d8da-bb25-4d23-9fbd-44f149344e47","$version":"A","$type":"Unity.VisualScripting.GetListItem","$id":"14"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"},"input":{"$content":"","$type":"System.String"}},"position":{"x":234.0,"y":-364.0},"guid":"8fc15e7a-01ac-4a80-bcb9-0d3e4519eb16","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"16"},{"argumentCount":1,"defaultValues":{"name":{"$content":"Options","$type":"System.String"},"target":null},"position":{"x":158.0,"y":81.0},"guid":"c8b11323-4799-4e8e-b1f7-7ce4845eb744","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"19"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"gameManager","$type":"System.String"}},"position":{"x":-188.0,"y":180.0},"guid":"a787836f-f79b-4a3e-a132-f1eeb2282d79","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"21"},{"type":"System.Int32","value":{"$content":3,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-122.0,"y":285.0},"guid":"40d6bd59-c5af-453f-b2ff-c720604fd857","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"23"},{"coroutine":false,"defaultValues":{},"position":{"x":-216.0,"y":-394.0},"guid":"5c77b005-08ce-4398-8f62-a31f139e7d37","$version":"A","$type":"Unity.VisualScripting.OnEnable","$id":"25"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"6bc84f08-4687-4a22-ae4d-7f9a3501c1a0","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"25"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"bcc7b1c4-12da-440f-9c1e-752dbc488df8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"list","guid":"e5606b6f-1b25-4b43-b52e-fef15e5179c4","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"item","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"d19afcf9-3512-40cf-b863-29aba9c9db7c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"target","guid":"5d637c2e-ccdc-42b5-8f39-1b2e785bf5b3","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"output","destinationUnit":{"$ref":"19"},"destinationKey":"argument_0","guid":"21e75226-b0b5-4d86-b33b-6301ce746977","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
     _objectReferences:
     - {fileID: 1207414609}
 --- !u!114 &1326083559
@@ -5827,7 +6010,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 367.5, y: 348}
+  m_SizeDelta: {x: 367.5, y: 521}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1432190322
 MonoBehaviour:
@@ -6007,6 +6190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyNormal (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2110007724542286671, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_TagString
+      value: EnemyLv04
+      objectReference: {fileID: 0}
     - target: {fileID: 8034611953597527964, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speed","value":{"$content":-2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -6024,81 +6211,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
   m_PrefabInstance: {fileID: 1443833575}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1451726442
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1451726443}
-  - component: {fileID: 1451726445}
-  - component: {fileID: 1451726444}
-  m_Layer: 5
-  m_Name: Grayout06
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1451726443
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451726442}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1676047773}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 367.5, y: 348}
-  m_Pivot: {x: 1, y: 0}
---- !u!114 &1451726444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451726442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.84725076, g: 0.9882353, b: 0.78431374, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1451726445
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451726442}
-  m_CullTransparentMesh: 1
 --- !u!1 &1474492375
 GameObject:
   m_ObjectHideFlags: 0
@@ -6158,81 +6270,6 @@ Transform:
   - {fileID: 371835358}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1486712756
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1486712757}
-  - component: {fileID: 1486712759}
-  - component: {fileID: 1486712758}
-  m_Layer: 5
-  m_Name: Grayout03
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1486712757
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486712756}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1676047773}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 367.5, y: 348}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &1486712758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486712756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.8509804, g: 0.9882353, b: 0.78431374, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1486712759
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486712756}
-  m_CullTransparentMesh: 1
 --- !u!1 &1512326141
 GameObject:
   m_ObjectHideFlags: 0
@@ -6327,6 +6364,7 @@ GameObject:
   - component: {fileID: 1520569482}
   - component: {fileID: 1520569487}
   - component: {fileID: 1520569488}
+  - component: {fileID: 1520569489}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -6526,6 +6564,41 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &1520569489
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520569481}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.014973283}
+  m_Size: {x: 0.44, y: 1.5189362}
+  m_Direction: 0
 --- !u!1 &1541169269
 GameObject:
   m_ObjectHideFlags: 0
@@ -6694,87 +6767,85 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1474492376}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1590725952
-PrefabInstance:
+--- !u!1 &1647085829
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 664601858}
-    m_Modifications:
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.56
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2110007724542286671, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_Name
-      value: EnemyAggressive (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2110007724542286671, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_TagString
-      value: EnemyAggressive
-      objectReference: {fileID: 0}
-    - target: {fileID: 2812042966435902369, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 288b9436e436a874d8cac0f495dd408a, type: 3}
-    - target: {fileID: 7954420790461556887, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034611953597527964, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speed","value":{"$content":-2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"reaction","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"directionRaycast","value":{"x":0.0,"y":-1.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
---- !u!4 &1590725953 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-  m_PrefabInstance: {fileID: 1590725952}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1647085830}
+  - component: {fileID: 1647085832}
+  - component: {fileID: 1647085831}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1647085830
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647085829}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 146318027}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1647085831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647085829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Skip
+--- !u!222 &1647085832
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647085829}
+  m_CullTransparentMesh: 1
 --- !u!1 &1676047772
 GameObject:
   m_ObjectHideFlags: 0
@@ -6808,10 +6879,8 @@ RectTransform:
   m_Children:
   - {fileID: 1432190321}
   - {fileID: 851674636}
-  - {fileID: 1486712757}
   - {fileID: 143106478}
   - {fileID: 580430904}
-  - {fileID: 1451726443}
   - {fileID: 1201158057}
   m_Father: {fileID: 974259432}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7318,11 +7387,15 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"optionList","value":{"$content":["Hallo","Ja","Nein","Doch"],"$type":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"enemyAggressiv","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentEnemy","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"enemyRaycastHit","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Points","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"maxPoints","value":{"$content":6,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"maxPoints","value":{"$content":4,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"textDelay","value":{"$content":0.05,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"enemyLv01","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"enemyLv02","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"enemyLv03","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"enemyLv04","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1520569481}
@@ -7343,79 +7416,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1829021544
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 664601858}
-    m_Modifications:
-    - target: {fileID: 613952326578460759, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 3962d1c41bf856c4aadcf8b7999a3c92, type: 2}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 11.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.67
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2110007724542286671, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: m_Name
-      value: EnemyNormal (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034611953597527964, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speed","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"reaction","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"directionRaycast","value":{"x":0.0,"y":1.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
---- !u!4 &1829021545 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1015374719405761399, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
-  m_PrefabInstance: {fileID: 1829021544}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1838301369
 GameObject:
   m_ObjectHideFlags: 0
@@ -8189,7 +8189,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2002519441
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8959,6 +8959,10 @@ PrefabInstance:
     - target: {fileID: 2110007724542286671, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
       propertyPath: m_Name
       value: EnemyNormal
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110007724542286671, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
+      propertyPath: m_TagString
+      value: EnemyLv02
       objectReference: {fileID: 0}
     - target: {fileID: 8034611953597527964, guid: 059996bf1cf43d249b08004fadc00fe1, type: 3}
       propertyPath: _data._json

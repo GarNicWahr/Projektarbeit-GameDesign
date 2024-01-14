@@ -5,7 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Puzzle
-  - EnemyAggressive
+  - EnemyLv01
+  - EnemyLv02
+  - EnemyLv03
+  - EnemyLv04
+  - Border
   layers:
   - Default
   - TransparentFX
