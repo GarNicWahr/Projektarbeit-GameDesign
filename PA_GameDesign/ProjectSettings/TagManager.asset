@@ -10,6 +10,7 @@ TagManager:
   - EnemyLv03
   - EnemyLv04
   - Border
+  - Oberteile
   layers:
   - Default
   - TransparentFX

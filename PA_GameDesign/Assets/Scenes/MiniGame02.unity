@@ -212,7 +212,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 281765138593515962, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":-0.03,"y":-1.57,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":-0.088,"y":-1.42,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyAttach","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -279,23 +279,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.033905
+      value: 0.9549472
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.033905
+      value: 0.9549472
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.033905
+      value: 0.9549472
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.12
+      value: -0.088
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.63
+      value: -1.42
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.z
@@ -688,7 +688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 119767230}
   m_Layer: 0
-  m_Name: Attach TopLong
+  m_Name: Attach BlackTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -740,11 +740,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6630604701566610754, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Name
-      value: ItemTopShort
+      value: ItemTriangelTop
       objectReference: {fileID: 0}
     - target: {fileID: 7607200689827987962, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":5.55,"y":3.78,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":5.53,"y":4.13,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyAttach","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -759,11 +759,11 @@ PrefabInstance:
       objectReference: {fileID: 989191321}
     - target: {fileID: 8066507101680808813, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Target.x
-      value: 5.6466966
+      value: 6.6496964
       objectReference: {fileID: 0}
     - target: {fileID: 8066507101680808813, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Target.y
-      value: 2.6079998
+      value: 3.02
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Size.x
@@ -791,23 +791,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2781745
+      value: 0.98468447
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2781745
+      value: 0.98468447
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2781745
+      value: 0.98468447
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.5
+      value: 5.53
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.82
+      value: 4.13
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -895,7 +895,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &200383991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1315,11 +1315,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6630604701566610754, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Name
-      value: Item Longsleeve
+      value: ItemLayerTop
       objectReference: {fileID: 0}
     - target: {fileID: 7607200689827987962, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":2.38,"y":3.28,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":2.27,"y":3.71,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyAttach","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -1334,11 +1334,11 @@ PrefabInstance:
       objectReference: {fileID: 705648602}
     - target: {fileID: 8066507101680808813, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Target.x
-      value: 2.676496
+      value: 3.3896961
       objectReference: {fileID: 0}
     - target: {fileID: 8066507101680808813, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Target.y
-      value: 2.71
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Size.x
@@ -1366,23 +1366,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0931938
+      value: 0.96933484
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1009
+      value: 0.9761679
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1009
+      value: 0.9761679
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.28
+      value: 2.27
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.58
+      value: 3.71
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1464,7 +1464,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"oberteilHit","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &522604233
 Transform:
@@ -1491,11 +1492,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3150112877667286584, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.46
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 3150112877667286584, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.54
+      value: 0.76
       objectReference: {fileID: 0}
     - target: {fileID: 6479426798191880597, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Sprite
@@ -1507,11 +1508,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6630604701566610754, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Name
-      value: Item PuffiPulli
+      value: Item CropTop
       objectReference: {fileID: 0}
     - target: {fileID: 7607200689827987962, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":-1.34,"y":1.89,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":-1.21,"y":2.08,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyAttach","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -1526,11 +1527,11 @@ PrefabInstance:
       objectReference: {fileID: 1278862556}
     - target: {fileID: 8066507101680808813, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Target.x
-      value: -0.020303845
+      value: -0.0903039
       objectReference: {fileID: 0}
     - target: {fileID: 8066507101680808813, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Target.y
-      value: 0.65
+      value: 0.9699999
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Size.x
@@ -1558,23 +1559,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0924135
+      value: 0.9375573
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.0924135
+      value: 0.9375573
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0924135
+      value: 0.9375573
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.34
+      value: -1.21
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.89
+      value: 2.08
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1628,7 +1629,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 281765138593515962, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":4.64,"y":-1.55,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":4.68,"y":-1.37,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyAttach","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -1695,23 +1696,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0681
+      value: 0.97814023
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.0681
+      value: 0.97814023
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0681
+      value: 0.97814023
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.7
+      value: 4.68
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.53
+      value: -1.37
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1768,7 +1769,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705648602}
   m_Layer: 0
-  m_Name: Attach Longsleeve
+  m_Name: Attach LayerTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2034,7 +2035,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 281765138593515962, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":1.58,"y":-1.39,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":1.53,"y":-1.04,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyAttach","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -2101,15 +2102,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1114
+      value: 0.9620754
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1114
+      value: 0.9620754
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1114
+      value: 0.9620754
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2117,7 +2118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.42
+      value: -1.04
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2242,8 +2243,8 @@ Transform:
   m_GameObject: {fileID: 842658068}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.67, y: -1.61, z: -0.0235}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: -2.47, y: -1.78, z: -0.0235}
+  m_LocalScale: {x: 0.42485, y: 0.42485, z: 0.42485}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 994389713}
@@ -2274,11 +2275,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6630604701566610754, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Name
-      value: ItemTshirt
+      value: ItemHoodie
       objectReference: {fileID: 0}
     - target: {fileID: 7607200689827987962, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":0.12,"y":2.596,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":0.43,"y":2.94,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyAttach","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -2293,11 +2294,11 @@ PrefabInstance:
       objectReference: {fileID: 1640320831}
     - target: {fileID: 8066507101680808813, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Target.x
-      value: 1.3196962
+      value: 1.5496962
       objectReference: {fileID: 0}
     - target: {fileID: 8066507101680808813, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Target.y
-      value: 2.63
+      value: 1.83
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Size.x
@@ -2325,23 +2326,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8211
+      value: 0.9533118
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8211
+      value: 0.9533118
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8211
+      value: 0.9533118
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.36
+      value: 0.43
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.1
+      value: 2.94
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2469,7 +2470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 989191321}
   m_Layer: 0
-  m_Name: Attach TopShort
+  m_Name: Attach TriangelTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2499,6 +2500,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 994389713}
+  - component: {fileID: 994389715}
+  - component: {fileID: 994389714}
   m_Layer: 0
   m_Name: = Figure =
   m_TagString: Player
@@ -2524,6 +2527,41 @@ Transform:
   - {fileID: 8535268164695378824}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &994389714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994389712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c811132e958dbae419bcfe48a76f7eac, type: 2}
+--- !u!114 &994389715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994389712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"oberteilCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.BoxCollider2D,
+      UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"UnterteilCollider","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.BoxCollider2D,
+      UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1351500116}
+    - {fileID: 287762293564397534}
 --- !u!1 &1011716958
 GameObject:
   m_ObjectHideFlags: 0
@@ -2640,7 +2678,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 281765138593515962, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":-1.18,"y":-1.02,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":-1.26,"y":-0.704,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyAttach","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -2707,23 +2745,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0238
+      value: 0.9746628
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.0238
+      value: 0.9746628
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0238
+      value: 0.9746628
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.31
+      value: -1.26
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.89
+      value: -0.704
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2818,7 +2856,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1278862556}
   m_Layer: 0
-  m_Name: Attach PuffiPulli
+  m_Name: Attach CropTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2833,7 +2871,7 @@ Transform:
   m_GameObject: {fileID: 1278862555}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02, y: -0.05, z: 0}
+  m_LocalPosition: {x: -0.019, y: -0.376, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2873,8 +2911,8 @@ Transform:
   m_GameObject: {fileID: 1351500114}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.68, y: -0.2864, z: -0.023533396}
-  m_LocalScale: {x: 1.728044, y: 1.796141, z: 1}
+  m_LocalPosition: {x: -2.5551, y: -0.83, z: -0.023533396}
+  m_LocalScale: {x: 1.797857, y: 1.796141, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1278862556}
@@ -2916,7 +2954,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.060071155, y: -0.053348005}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2927,7 +2965,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.1201422, y: 1.106696}
   m_EdgeRadius: 0
 --- !u!212 &1351500117
 SpriteRenderer:
@@ -2996,7 +3034,7 @@ TargetJoint2D:
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_Anchor: {x: 0, y: 0}
-  m_Target: {x: -4.10324, y: 0.8736}
+  m_Target: {x: -3.9783397, y: 0.32999998}
   m_AutoConfigureTarget: 1
   m_MaxForce: 10000
   m_DampingRatio: 1
@@ -3385,11 +3423,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6630604701566610754, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Name
-      value: ItemTop
+      value: ItemBlackTop
       objectReference: {fileID: 0}
     - target: {fileID: 7607200689827987962, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":4.12,"y":3.02,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":4.19,"y":3.57,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyAttach","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -3404,11 +3442,11 @@ PrefabInstance:
       objectReference: {fileID: 119767230}
     - target: {fileID: 8066507101680808813, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Target.x
-      value: 5.239696
+      value: 5.309696
       objectReference: {fileID: 0}
     - target: {fileID: 8066507101680808813, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Target.y
-      value: 1.91
+      value: 2.46
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Size.x
@@ -3436,23 +3474,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1782
+      value: 0.9377595
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1782
+      value: 0.9377595
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1782
+      value: 0.9377595
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.15
+      value: 4.19
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.34
+      value: 3.57
       objectReference: {fileID: 0}
     - target: {fileID: 9174085911141999101, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3501,7 +3539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1640320831}
   m_Layer: 0
-  m_Name: Attach Tshirt
+  m_Name: Attach Hoodie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3610,7 +3648,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 281765138593515962, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":3.13,"y":-1.55,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"originalPosition","value":{"x":3.11,"y":-1.15,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BodyAttach","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -3677,23 +3715,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.11255
+      value: 0.9418256
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.11255
+      value: 0.9418256
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.11255
+      value: 0.9418256
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1
+      value: 3.11
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.48
+      value: -1.15
       objectReference: {fileID: 0}
     - target: {fileID: 7037637913333039533, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4074,7 +4112,7 @@ TargetJoint2D:
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_Anchor: {x: 0, y: 0}
-  m_Target: {x: -4.1732397, y: -1.5100001}
+  m_Target: {x: -4.1732397, y: -1.67}
   m_AutoConfigureTarget: 1
   m_MaxForce: 10000
   m_DampingRatio: 1
@@ -4115,7 +4153,7 @@ Transform:
   m_GameObject: {fileID: 9061115257920168301}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.75, y: -2.67, z: -0.02352009}
+  m_LocalPosition: {x: -2.75, y: -2.83, z: -0.02352009}
   m_LocalScale: {x: 1.7309071, y: 2.316135, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
