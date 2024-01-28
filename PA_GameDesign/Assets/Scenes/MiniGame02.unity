@@ -2949,7 +2949,7 @@ GameObject:
   - component: {fileID: 1351500119}
   - component: {fileID: 1351500118}
   m_Layer: 0
-  m_Name: UpperBodyCollider
+  m_Name: OberteileCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4243,7 +4243,7 @@ GameObject:
   - component: {fileID: 7827107706513466046}
   - component: {fileID: 5799799642653919130}
   m_Layer: 0
-  m_Name: UnderBodyCollider
+  m_Name: UnterteileCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
