@@ -251,7 +251,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4517378062579676217, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Name
-      value: ItemRocklang
+      value: ItemSchlitzRock
+      objectReference: {fileID: 0}
+    - target: {fileID: 4517378062579676217, guid: 87cec5287b18043409753ed612b7a105, type: 3}
+      propertyPath: m_TagString
+      value: Unterteile
       objectReference: {fileID: 0}
     - target: {fileID: 6584772188165626017, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Size.x
@@ -1481,6 +1485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"oberteilHit","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"unterteilHit","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &522604233
@@ -1692,7 +1697,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4517378062579676217, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Name
-      value: ItemLeggins
+      value: ItemSchlaghose
+      objectReference: {fileID: 0}
+    - target: {fileID: 4517378062579676217, guid: 87cec5287b18043409753ed612b7a105, type: 3}
+      propertyPath: m_TagString
+      value: Unterteile
       objectReference: {fileID: 0}
     - target: {fileID: 6584772188165626017, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Size.x
@@ -2102,7 +2111,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4517378062579676217, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Name
-      value: ItemHose
+      value: ItemLockereHose
+      objectReference: {fileID: 0}
+    - target: {fileID: 4517378062579676217, guid: 87cec5287b18043409753ed612b7a105, type: 3}
+      propertyPath: m_TagString
+      value: Unterteile
       objectReference: {fileID: 0}
     - target: {fileID: 6584772188165626017, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Size.x
@@ -2593,7 +2606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"oberteilCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.BoxCollider2D,
-      UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"UnterteilCollider","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.BoxCollider2D,
+      UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"unterteilCollider","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.BoxCollider2D,
       UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1351500116}
@@ -2753,7 +2766,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4517378062579676217, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Name
-      value: ItemRockkurz
+      value: ItemKurzerRock
+      objectReference: {fileID: 0}
+    - target: {fileID: 4517378062579676217, guid: 87cec5287b18043409753ed612b7a105, type: 3}
+      propertyPath: m_TagString
+      value: Unterteile
       objectReference: {fileID: 0}
     - target: {fileID: 6584772188165626017, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Size.x
@@ -3731,7 +3748,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4517378062579676217, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Name
-      value: ItemCargo
+      value: ItemBaggyPants
+      objectReference: {fileID: 0}
+    - target: {fileID: 4517378062579676217, guid: 87cec5287b18043409753ed612b7a105, type: 3}
+      propertyPath: m_TagString
+      value: Unterteile
       objectReference: {fileID: 0}
     - target: {fileID: 6584772188165626017, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Size.x
