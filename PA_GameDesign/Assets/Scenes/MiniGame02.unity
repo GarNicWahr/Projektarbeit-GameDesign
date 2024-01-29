@@ -1362,7 +1362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Size.x
-      value: 1.8220654
+      value: 1.4624293
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Size.y
@@ -1370,7 +1370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Offset.x
-      value: 0.010153145
+      value: 0.02214086
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Offset.y
@@ -1564,19 +1564,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Size.x
-      value: 2.9169781
+      value: 2.1497552
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Size.y
-      value: 2.0779457
+      value: 1.7662615
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Offset.x
-      value: -0.084962726
+      value: 0.034915805
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Offset.y
-      value: 0.25198263
+      value: 0.4078248
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -1705,7 +1705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6584772188165626017, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Size.x
-      value: 1.383822
+      value: 1.1680398
       objectReference: {fileID: 0}
     - target: {fileID: 6584772188165626017, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Size.y
@@ -1713,7 +1713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6584772188165626017, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Offset.x
-      value: -0.046810508
+      value: 0.061080545
       objectReference: {fileID: 0}
     - target: {fileID: 6584772188165626017, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Offset.y
@@ -2351,7 +2351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Size.x
-      value: 1.8602959
+      value: 1.4047575
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Size.y
@@ -2359,11 +2359,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Offset.x
-      value: 0.11484164
+      value: -0.112927556
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_Offset.y
-      value: 0.0029690862
+      value: 0.0029690266
       objectReference: {fileID: 0}
     - target: {fileID: 8371947052643331437, guid: d4949a540899eeb4e9cc940a23ab47d0, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -2583,7 +2583,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994389712}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
   m_Name: 
@@ -2774,7 +2774,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6584772188165626017, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Size.x
-      value: 1.1560227
+      value: 1.2279497
       objectReference: {fileID: 0}
     - target: {fileID: 6584772188165626017, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Size.y
@@ -2782,7 +2782,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6584772188165626017, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Offset.x
-      value: 0.055457413
+      value: 0.09142095
       objectReference: {fileID: 0}
     - target: {fileID: 6584772188165626017, guid: 87cec5287b18043409753ed612b7a105, type: 3}
       propertyPath: m_Offset.y
@@ -2924,7 +2924,7 @@ Transform:
   m_GameObject: {fileID: 1278862555}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.041, y: -0.375, z: 0}
+  m_LocalPosition: {x: -0.041, y: -0.42, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2948,6 +2948,8 @@ GameObject:
   - component: {fileID: 1351500116}
   - component: {fileID: 1351500119}
   - component: {fileID: 1351500118}
+  - component: {fileID: 1351500121}
+  - component: {fileID: 1351500120}
   m_Layer: 0
   m_Name: OberteileCollider
   m_TagString: Untagged
@@ -2964,8 +2966,8 @@ Transform:
   m_GameObject: {fileID: 1351500114}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.42, y: -0.79, z: -0.023533396}
-  m_LocalScale: {x: 1.4947166, y: 1.6892706, z: 1}
+  m_LocalPosition: {x: -2.42, y: -0.7405, z: -0.023533396}
+  m_LocalScale: {x: 1.4947166, y: 1.5902793, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1278862556}
@@ -3087,7 +3089,7 @@ TargetJoint2D:
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_Anchor: {x: 0, y: 0}
-  m_Target: {x: -3.8432398, y: 0.36999995}
+  m_Target: {x: -3.8432398, y: 0.4195}
   m_AutoConfigureTarget: 1
   m_MaxForce: 10000
   m_DampingRatio: 1
@@ -3119,6 +3121,39 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1351500120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351500114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 5601723f5ab4d7742825113b06869419, type: 2}
+--- !u!114 &1351500121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351500114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"oberteilCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.BoxCollider2D,
+      UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1351500116}
 --- !u!1 &1354256093
 GameObject:
   m_ObjectHideFlags: 0
@@ -3868,7 +3903,7 @@ Transform:
   m_GameObject: {fileID: 1941791479}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.06, y: 0.394, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0.394, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4242,6 +4277,8 @@ GameObject:
   - component: {fileID: 287762293564397534}
   - component: {fileID: 7827107706513466046}
   - component: {fileID: 5799799642653919130}
+  - component: {fileID: 9061115257920168303}
+  - component: {fileID: 9061115257920168302}
   m_Layer: 0
   m_Name: UnterteileCollider
   m_TagString: Untagged
@@ -4249,6 +4286,39 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9061115257920168302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9061115257920168301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 70dabe0851746b14193a37688a0c266e, type: 2}
+--- !u!114 &9061115257920168303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9061115257920168301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"unterteilCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.BoxCollider2D,
+      UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 287762293564397534}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
