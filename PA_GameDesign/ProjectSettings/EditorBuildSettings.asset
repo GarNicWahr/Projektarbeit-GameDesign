@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MiniGame01.unity
-    guid: b1a4faea455ceae4bbcdf7738d0370f3
+    path: Assets/Scenes/MainMenue.unity
+    guid: 10a8384e18c77324186e9c9cf949af5b
   - enabled: 1
     path: Assets/Scenes/SceneBusiness.unity
     guid: 991c99caa332b184c9c9d2b3b45d5815
   - enabled: 1
-    path: Assets/Scenes/SchiebePuzzle.unity
-    guid: 4d6a2e1a5fd7f1b4d941a287ee2bf96e
+    path: Assets/Scenes/MiniGame01.unity
+    guid: b1a4faea455ceae4bbcdf7738d0370f3
   - enabled: 1
     path: Assets/Scenes/MiniGame02.unity
     guid: 094ac3783d6ed0748a828e065369e1a9
+  - enabled: 1
+    path: Assets/Scenes/SchiebePuzzle.unity
+    guid: 4d6a2e1a5fd7f1b4d941a287ee2bf96e
   m_configObjects: {}
