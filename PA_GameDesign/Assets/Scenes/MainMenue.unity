@@ -660,9 +660,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"clickSound","value":null,"typeHandle":{"Identification":"UnityEngine.AudioClip,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"clickSound","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _objectReferences:
+    - {fileID: 8300000, guid: 7abccce1359ba0d4a8421bcc212783c5, type: 3}
 --- !u!4 &210966523
 Transform:
   m_ObjectHideFlags: 0
@@ -1044,7 +1045,7 @@ GameObject:
   - component: {fileID: 758062776}
   - component: {fileID: 758062775}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: SoundSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1732,6 +1733,7 @@ GameObject:
   - component: {fileID: 1298528786}
   - component: {fileID: 1298528785}
   - component: {fileID: 1298528784}
+  - component: {fileID: 1298528787}
   m_Layer: 5
   m_Name: VolumeSlider
   m_TagString: Untagged
@@ -1774,7 +1776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-556.0,"y":-162.0},"guid":"9d666228-b6fd-4e53-8b65-9cc913a134ba","$version":"A","$type":"Unity.VisualScripting.OnSliderValueChanged","$id":"10"},{"kind":"Application","defaultValues":{"name":{"$content":"soundVolume","$type":"System.String"}},"position":{"x":-72.0,"y":-172.0},"guid":"2daa5ef2-0e7f-4d07-b2d6-d9f8b18ec590","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"12"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"assign","guid":"09af762b-0289-480c-81f7-ba4f8d224ddb","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"input","guid":"8ae4dda7-e193-48fb-9e5a-c94cc6395aa2","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-556.0,"y":-162.0},"guid":"9d666228-b6fd-4e53-8b65-9cc913a134ba","$version":"A","$type":"Unity.VisualScripting.OnSliderValueChanged","$id":"10"},{"kind":"Application","defaultValues":{"name":{"$content":"soundVolume","$type":"System.String"}},"position":{"x":-72.0,"y":-172.0},"guid":"2daa5ef2-0e7f-4d07-b2d6-d9f8b18ec590","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"12"},{"argumentCount":1,"defaultValues":{"name":{"$content":"PlaySound","$type":"System.String"},"target":null},"position":{"x":454.0,"y":-108.0},"guid":"ed9023e3-7e84-4e9c-a755-e4816941baa9","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"14"},{"defaultValues":{},"position":{"x":290.0,"y":78.0},"guid":"d30bdd6c-745e-46aa-b394-42027fbe7dbf","$version":"A","$type":"Unity.VisualScripting.This","$id":"16"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"menueManager","$type":"System.String"}},"position":{"x":202.0,"y":-26.0},"guid":"514f6d66-971f-437a-ba82-3f0f6ca00ae4","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"assign","guid":"09af762b-0289-480c-81f7-ba4f8d224ddb","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"assigned","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"7abd65ff-1d7b-415f-84b9-ba7ab4317fde","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"input","guid":"8ae4dda7-e193-48fb-9e5a-c94cc6395aa2","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"target","guid":"7200feb0-7884-498f-9bdc-4362b914f0de","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"self","destinationUnit":{"$ref":"14"},"destinationKey":"argument_0","guid":"d32be452-d76c-4780-9cd5-b3d18c5b32f0","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
     _objectReferences: []
 --- !u!114 &1298528785
 MonoBehaviour:
@@ -1842,6 +1844,102 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!82 &1298528787
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298528782}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1794297845
 GameObject:
   m_ObjectHideFlags: 0
