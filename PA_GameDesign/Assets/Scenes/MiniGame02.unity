@@ -1987,7 +1987,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.844}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14, y: 5}
+  m_AnchoredPosition: {x: -14, y: 4}
   m_SizeDelta: {x: 561.55, y: 464.6758}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &390579016
@@ -2012,7 +2012,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ecdf5a18e472ed64fa4e1a7c796db5ce, type: 3}
-    m_FontSize: 35
+    m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -2023,9 +2023,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: "Hilf Liz das passende Outfit zu finden um viele Likes auf Social-Media
-    zu bekommen!\nBenutze deine Maus um die Klamotten auszuw\xE4hlen und ziehe diese
-    \xFCber Liz."
+  m_Text: "Helfe Liz dabei, ein passendes Outfit auszusuchen .\n\_W\xE4hle das gew\xFCnschte
+    Kleidungsst\xFCck und ziehe es per Drag & Drop auf Liz.\_\nPoste deinen Style
+    auf Social Media und schau' wie viele Likes du daf\xFCr bekommst."
 --- !u!222 &390579017
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5156,8 +5156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -27}
-  m_SizeDelta: {x: 681.5939, y: 226.3591}
+  m_AnchoredPosition: {x: 0, y: -10}
+  m_SizeDelta: {x: 612.6135, y: 340.6989}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1113054351
 MonoBehaviour:
@@ -5181,7 +5181,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ecdf5a18e472ed64fa4e1a7c796db5ce, type: 3}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -5192,7 +5192,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Du hast die notwendigen Likes erreicht!
+  m_Text: "Wow, du hast \xFCber 3000 Likes auf deine Posts bekommen.\n\nKehre zur\xFCck
+    in die Stadt oder probiere noch mehr Styles aus."
 --- !u!222 &1113054352
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5317,7 +5318,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1126.768, y: 593.7927}
+  m_SizeDelta: {x: 1126.768, y: 729.8176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1187882538
 MonoBehaviour:
