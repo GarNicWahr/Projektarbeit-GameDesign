@@ -37,6 +37,7 @@ Supervised by Prof. Florian Machill and Prof. Sebastian Stamm (Game Design WS 23
 ### Sound
 * Free UI Click Sound Pack [Assetstore] (https://assetstore.unity.com/packages/audio/sound-fx/free-ui-click-sound-pack-244644)
 * 8 Bit Retro Rampage: Free Edition [Assetstore] (https://assetstore.unity.com/packages/audio/sound-fx/8-bit-retro-rampage-free-edition-7946)
+* Dialog Text - Sound Effects [Assetstore] (https://assetstore.unity.com/packages/audio/sound-fx/dialog-text-sound-effects-222079)
 
 ### Fonts
 * Indie Flower [GoogleFonts] (https://fonts.google.com/specimen/Indie+Flower?classification=Handwriting&preview.text=Hallo)
